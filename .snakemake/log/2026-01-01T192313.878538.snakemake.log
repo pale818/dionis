@@ -1,0 +1,35 @@
+Assuming unrestricted shared filesystem usage.
+host: dario
+Building DAG of jobs...
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+all                   1
+scrape_species        1
+total                 2
+
+Select jobs to execute...
+Execute 1 jobs...
+[Thu Jan  1 19:23:14 2026]
+localrule scrape_species:
+    output: data/backbone.done
+    jobid: 1
+    reason: Missing output files: data/backbone.done
+    resources: tmpdir=C:\Users\Dario\AppData\Local\Temp
+[Thu Jan  1 19:23:16 2026]
+Finished jobid: 1 (Rule: scrape_species)
+1 of 2 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Thu Jan  1 19:23:16 2026]
+localrule all:
+    input: data/backbone.done
+    jobid: 0
+    reason: Input files updated by another job: data/backbone.done
+    resources: tmpdir=C:\Users\Dario\AppData\Local\Temp
+[Thu Jan  1 19:23:16 2026]
+Finished jobid: 0 (Rule: all)
+2 of 2 steps (100%) done
+Complete log(s): C:\Users\Dario\source\repos\PAOLA\dionis\.snakemake\log\2026-01-01T192313.878538.snakemake.log

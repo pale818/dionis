@@ -1,0 +1,264 @@
+
+
+Second project – Dionis (LO2 – 20 points, LO3 – 20 points)
+
+Your task is to implement a data processing pipeline for bird sightings 
+consisting of four steps. Main goal of
+
+this pipeline is to generate a dataset that contains information about 
+birds and their sightings based on the
+
+- audio files containing possible bird songs or calls
+
+- data consumed from external ornithology services.
+
+For this solution, it is mandatory to use MongoDB and Minio (or any other 
+S3 compatible data storage) as
+
+storage providers. However, if you require any other external tool or 
+library, you are permitted to use it.
+
+First objective is to scrape all the data about bird species 
+(lat. aves) and create a backbone by storing the
+
+scraped data into a MongoDB collection. Data is available on 
+the https://aves.regoch.net (mock website that
+
+uses publicly available GBIF data). If the data already exists in the collection, 
+this step needs to be skipped.
+
+Secondly, it is necessary to read all messages present on the Kafka publisher 
+at the time of the execution.
+
+Kafka messages contain information about bird sightings published by 
+ornithologists, called observations.
+
+These messages do not contain any audio files. Rather, they must contain 
+the bird taxonomy identification
+
+code and geographical position (longitude and latitude), but the present 
+biological observation data can vary
+
+between different ornithological sources (e.g. body size, body temperature, 
+migration status, flight pattern,
+
+habitat, etc.). All observations need to be stored in your database.
+
+Third step of the pipeline should process audio files in a target directory 
+which means uploading each file to
+
+MiniO (or any other cloud S3 compatible) bucket storage and subsequently 
+requesting classification from the
+
+publicly available classification model () via the API interface. 
+The classification response will provide
+
+information about birds present in the audio recording as well as confidence score. 
+The audio file and
+
+classification results should be stored in the database for later retrieval.
+
+
+
+The target directory containing audio files can be a local directory, 
+but you can also optionally support cloud-
+
+based storage (e.g. Google Drive). Each file must be associated with a 
+geographical position, similarly to the
+
+
+
+previous step (for the sake of simplicity, you can assume that all files 
+in a certain folder are associated with a
+
+single geographical position).
+
+The final step should generate statistics for all bird species that have 
+at least one positive classification. Before
+
+creating the final output, make sure to clean the data and apply the 
+appropriate transformations. Produced
+
+CSV should include species name, number of classified sightings, and any relevant 
+observational data. When
+
+executing this pipeline, optional parameter can be set to provide a fuzzy 
+filter for species names to narrow the
+
+report to specific birds.
+
+To achieve maximum points, the workflow described should be split into 
+multiple smaller scripts orchestrated
+
+with any tool that allows single entry point execution with the possibility 
+of defining optional runtime
+
+parameters (since Python is a recommended language for this task, Snakemake 
+is a recommended script
+
+execution orchestrator). For bonus points, enable the script execution 
+through manually triggerable Github
+
+Actions workflow (as shown on the exercises) as well as visualization of the 
+generated report, in any way that
+
+you prefer1
+
+.
+
+
+
+1 You can use Python plotting libraries like Matplotlib, Seaborn or Plotly as 
+well as Charts.js, Grafana or any
+
+other language library that supports visualizations
+
+
+
+5
+
+
+
+The following section details the points for each successfully 
+implemented segment of the pipeline. The order
+
+is scrambled to accommodate the definitions and order of 
+learning outcomes. For the actual step order, please
+
+refer to the description above.
+
+Learning Outcome 2 (Minimal - 10 points): Implement the 
+processing of files located in a target directory by
+
+uploading them to MinIO (or another S3-compatible storage) 
+and ensuring that each file can be retrieved and
+
+uniquely identified. The uploaded files should be associated with 
+metadata, such as location and filename, and
+
+this association must be stored in MongoDB. Optionally, 
+you can add support for processing files found in
+
+other remote locations (e.g. Google Drive).
+
+Learning Outcome 2 (Desired - 10 points): For each uploaded 
+file, request an API call to the bird classifier
+
+model (deployed on: ), storing request log in the MiniO 
+(define any format that you see fit), while saving the
+
+classification results the appropriate MongoDB collection.
+
+Learning Outcome 3 (Minimal - 10 points): Store the scraped bird 
+species data from https://aves.regoch.net in
+
+the appropriate MongoDB collection while avoiding duplicate entries. 
+After the classification process has
+
+finished in the third step, store the classification results in the 
+appropriate collection while linking the bird
+
+observations to species information.
+
+Learning outcome 3 (Desired – 5 points): Consume Kafka messages 
+containing bird observations and store
+
+them in the MongoDB collection including species ID, location, 
+and any provided biological observation data.
+
+Be careful, as different observations can contain different biological properties.
+
+Learning outcome 3 (Desired – 5 points): Implement filtering 
+(fuzzy sting matching) based on the species
+
+names for generating the final CSV report and apply appropriate 
+data cleaning and transformations method
+
+before producing the final CSV output.
+
+
+
+
+
+also check tis:
+
+Learning Outcome 1MINIMUMExplain concepts in the Postgres architecture 
+(WAL, vacuum, checkpointer).MINIMUMDemonstrate understanding of 
+ACID implementations in Postgres.MINIMUMDemonstrate deployment of 
+the database instance using Docker.MINIMUMExplain how and when to 
+use indexes and demonstrate understanding of when the index scan will 
+be used.MINIMUMDescribe the specifics of conneciton management when 
+communicating with the database.DESIREDImplement basic mapping between 
+classes and tables that will be used when fetching the data 
+(hint: use reflection).DESIREDImplement basic data retrieval and 
+insertion.DESIREDImplement data filtering when fetching 
+(WHERE clasue mapping).DESIREDImplement and use column constraints 
+in class-table mapping.Learning outcome 4MINIMUMImplement software 
+solution from the described project scenario (CRUD operations on basic entities).
+MINIMUMImplement fetching of the related data 
+(different cardinalities).MINIMUMDemonstrate and explain the 
+difference between eager and lazy loading.DESIREDImplement 
+fetching of the related data using navigational properties 
+(other approaches are also valid),DESIREDImplement form of a 
+change tracking to automatically persists changes made to objects 
+(refer to EF - Change Tracker)Learning outcome 5MINIMUMCreate the 
+software solution using code first approach.MINIMUMDemonstrate the 
+usage and specifics of migrations by creating, applying and 
+reverting migrations.DESIREDImplement automatic migration generation 
+mechanism for custom ORM implementation (based on the changes in the 
+class definitions).DESIREDImplement mechanism that applies and reverts 
+given migration(s) in custom ORM implementation.
+
+
+
+
+
+The 4-Day Execution Plan
+I suggest breaking this into four focused "Sprints." This keeps the complexity manageable for your daughter while hitting all the Learning Outcomes (LOs).
+
+Day 1: Infrastructure & The "Backbone"
+Goal: Set up the environment and the first data ingestion.
+
+Tasks:
+
+Set up a docker-compose.yml with MongoDB, MinIO, and Kafka (to simulate the external services).
+
+Script 1: Create scrape_species.py. It scrapes the mock website and populates MongoDB.
+
+Snakemake Intro: Write the first Snakefile rule that runs this script and creates a "sentinel" file (e.g., data/backbone.done).
+
+Day 2: Real-time Ingestion & Object Storage
+Goal: Handle the "live" data.
+
+Tasks:
+
+Script 2: Create consume_kafka.py. This reads from the Kafka topic and stores sightings.
+
+Script 3: Create upload_and_classify.py. Use boto3 to push a .wav file to MinIO and requests to hit the bird classification API.
+
+Snakemake Rule: Add these to the Snakefile. The Audio script should only run after the Backbone script is done.
+
+Day 3: The "Brain" (Data Cleaning & Reporting)
+Goal: Transform the raw database into a useful report.
+
+Tasks:
+
+Script 4: Create generate_report.py. Use pandas to query MongoDB, join the species with sightings, and perform the Fuzzy Matching on names.
+
+Visualization: Use matplotlib or seaborn to make a simple bar chart of the most common birds found.
+
+Output: The final sightings_report.csv.
+
+Day 4: Automation (GitHub Actions) & Polish
+Goal: Move from local development to a "Senior" deployment.
+
+Tasks:
+
+Create a .github/workflows/dionis.yml file.
+
+Set up the manual trigger (on: workflow_dispatch).
+
+Configure the Action to install dependencies and run the Snakemake command.
+
+Final Review: Double-check the Learning Outcomes (LO1-LO5) to ensure you can explain the Postgres/ACID concepts if the professor asks.
+

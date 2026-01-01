@@ -1,0 +1,20 @@
+# Data Fetching & Scraping
+requests
+beautifulsoup4
+
+# Database & Storage
+pymongo
+boto3
+
+# Streaming
+confluent-kafka
+
+# Data Processing & Stats
+pandas
+fuzzywuzzy
+python-Levenshtein
+
+# Orchestration & Visualization
+snakemake
+matplotlib
+seaborn

@@ -1,0 +1,79 @@
+Project Purpose: Dionis Bird Sighting Pipeline
+The goal of this project is to build an automated "brain" for bird researchers. 
+It collects bird species data from the web (The Backbone), listens for live sightings from 
+external services (Kafka Ingestion), and even processes audio recordings of bird songs to 
+identify species (Audio classification). Finally, it cleans all this data into a professional 
+report with visualizations to help scientists track bird populations.
+
+Day 1: 
+Infrastructure & The "Backbone"
+Goal: Set up the environment and the first data ingestion.
+
+Tasks:
+
+Set up a docker-compose.yml with MongoDB, MinIO, and Kafka (to simulate the external services).
+
+Script 1: Create scrape_species.py. It scrapes the mock website and populates MongoDB.
+
+Snakemake Intro: Write the first Snakefile rule that runs this script and creates a "sentinel" file (e.g., data/backbone.done).
+
+
+
+
+Day 2: 
+Real-time Ingestion & Object Storage
+Goal: Handle the "live" data.
+
+Tasks:
+
+Script 2: Create consume_kafka.py. This reads from the Kafka topic and stores sightings.
+
+Script 3: Create upload_and_classify.py. Use boto3 to push a .wav file to MinIO and requests to hit the bird classification API.
+
+Snakemake Rule: Add these to the Snakefile. The Audio script should only run after the Backbone script is done.
+
+
+
+
+Day 3: 
+The "Brain" (Data Cleaning & Reporting)
+Goal: Transform the raw database into a useful report.
+
+Tasks:
+
+Script 4: Create generate_report.py. Use pandas to query MongoDB, join the species with sightings, and perform the Fuzzy Matching on names.
+
+Visualization: Use matplotlib or seaborn to make a simple bar chart of the most common birds found.
+
+Output: The final sightings_report.csv.
+
+
+
+
+Day 4: 
+Automation (GitHub Actions) & Polish
+Goal: Move from local development to a "Senior" deployment.
+
+Tasks:
+
+Create a .github/workflows/dionis.yml file.
+
+Set up the manual trigger (on: workflow_dispatch).
+
+Configure the Action to install dependencies and run the Snakemake command.
+
+Final Review: Double-check the Learning Outcomes (LO1-LO5) to ensure you can explain the Postgres/ACID concepts if the professor asks.
+
+
+
+
+
+
+Project Purpose Summary
+The Dionis project is a bird sighting data pipeline designed to:
+
+Build a Backbone: Scrape bird species data from a dedicated website.
+Ingest Live Data: Listen for real-time bird sightings via Kafka messages.
+Process Audio: Identify birds from their recorded songs using an AI classification API.
+Generate Reports: Clean and combine all data into a professional report with visualizations.
+
