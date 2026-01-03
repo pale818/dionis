@@ -8,6 +8,7 @@ boto3
 
 # Streaming
 confluent-kafka
+kafka-python
 
 # Data Processing & Stats
 pandas

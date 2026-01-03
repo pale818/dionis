@@ -1,0 +1,23 @@
+Assuming unrestricted shared filesystem usage.
+host: dario
+Building DAG of jobs...
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job              count
+-------------  -------
+consume_kafka        1
+total                1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Sat Jan  3 21:08:25 2026]
+localrule consume_kafka:
+    output: data/sightings.done
+    jobid: 0
+    reason: Forced execution
+    resources: tmpdir=C:\Users\Dario\AppData\Local\Temp
+[Sat Jan  3 21:08:31 2026]
+Finished jobid: 0 (Rule: consume_kafka)
+1 of 1 steps (100%) done
+Complete log(s): C:\Users\Dario\source\repos\PAOLA\dionis\.snakemake\log\2026-01-03T210825.139422.snakemake.log
