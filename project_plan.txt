@@ -1,0 +1,78 @@
+# Create the environment
+python -m venv venv
+
+# Activate it (Windows)
+.\venv\Scripts\activate
+# git bash
+source venv/Scripts/activate
+
+
+# Activate it (Mac/Linux)
+source venv/bin/activate
+
+pip install pymongo boto3 pandas confluent-kafka snakemake requests beautifulsoup4
+
+---------------------------------------------------------------------------------------
+Here is why you need each one:
+
+
+pymongo: To connect to your MongoDB container and store the bird species "backbone" and observation data.
+boto3: The standard library for interacting with S3-compatible storage like MinIO.
+pandas: Essential for the final step to clean the data and generate the CSV report.
+confluent-kafka: To consume messages from the Kafka broker regarding bird observations.
+snakemake: The orchestrator that allows you to run all scripts through a single entry point.
+requests & beautifulsoup4: Needed for Step 1 to scrape the bird data from the website.
+----------------------------------------------------------------------------------------
+
+
+Dionis-Project/
+├── data/               # Folder for local audio files
+├── scripts/            # Your Python processing scripts
+│   ├── scrape_birds.py
+│   ├── kafka_consumer.py
+│   ├── process_audio.py
+│   └── generate_report.py
+├── docker-compose.yml  # Your database setup
+├── Snakefile           # The Snakemake orchestrator file
+└── requirements.txt    # List of libraries
+--------------------------------------------------------------------------------
+
+	Phase 2: Step-by-Step Pipeline Development
+Step 1: Web Scraping (LO3 - Minimal)
+Goal: Scrape bird species data from aves.regoch.net.
+Task: Write a script to fetch the data and store it in a MongoDB collection.
+Constraint: Implement a check to skip entries that already exist in the collection to avoid duplicates.
+
+Step 2: Kafka Observation Consumption (LO3 - Desired)
+Goal: Read bird sighting messages from the Kafka publisher.
+Task: Capture species ID, geographical coordinates (lat/long), and varying biological data (size, habitat, etc.).
+Constraint: Ensure the database schema handles varying biological properties, as different sources provide different data points.
+
+Step 3: Audio Processing & Classification (LO2 - Minimal & Desired)
+Goal: Process audio files from a local (or cloud) directory.
+Upload: Upload each audio file to a MinIO bucket.
+Classify: Call the provided API to classify the bird songs in the audio.
+Store: * Save the request log in MinIO.
+Store the classification results (bird species and confidence score) in MongoDB.
+Link the metadata (filename, location) to the database entry.
+
+Step 4: Data Cleaning & Reporting (LO3 - Desired)
+Goal: Generate a final statistics report.
+Task: Clean and transform the data (merging sightings with species info).
+Filter: Implement a fuzzy string matching filter for species names via an optional runtime parameter.
+Output: Produce a CSV including species names, number of sightings, and biological data.
+----------------------------------------------------------------------------------------------------
+	Phase 3: Orchestration & Bonus Features
+Snakemake Orchestration:
+Create a Snakefile to define these steps as a single workflow.
+Ensure the pipeline has a single entry point and accepts optional parameters (like the fuzzy filter).
+Visualizations (Bonus):
+Use a library like Matplotlib or Seaborn to create charts based on your final CSV data.
+GitHub Actions (Bonus):
+Configure a workflow to allow manual execution of the scripts via GitHub.
+-------------------------------------------------------------------------------------
+
+	Phase 4: Submission & Defense Prep
+
+Submission: Push all code to GitHub at least 3 days before your defense.
+Preparation: Be ready to demonstrate the pipeline, explain how MongoDB and MinIO are integrated, and discuss how you handled the varying data formats from Kafka
