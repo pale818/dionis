@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+
+# Data & Audio (Optional)
+# If you don't want to upload your 600MB audio samples to GitHub
+data/audio/*
+!data/audio/.gitkeep
+
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Environment variables (Crucial for security)
+.env

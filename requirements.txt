@@ -1,0 +1,8 @@
+pymongo
+boto3
+pandas
+confluent-kafka
+snakemake
+requests
+beautifulsoup4
+minio   

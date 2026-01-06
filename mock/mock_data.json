@@ -1,0 +1,30 @@
+[
+    {
+        "taxonomy_code": "Guttera pucherani",
+        "longitude": 15.98,
+        "latitude": 45.81,
+        "observation_data": {
+            "habitat": "Forest",
+            "body_size": "Medium"
+        }
+    },
+    {
+        "taxonomy_code": "Agelastes niger",
+        "longitude": 14.42,
+        "latitude": 40.85,
+        "observation_data": {
+            "migration_status": "Active",
+            "wing_span": "45cm",
+            "body_temp": 41.2
+        }
+    },
+    {
+        "taxonomy_code": "Acryllium vulturinum",
+        "longitude": 36.82,
+        "latitude": -1.29,
+        "observation_data": {
+            "habitat": "Savanna",
+            "flight_pattern": "Low altitude"
+        }
+    }
+]
