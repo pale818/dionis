@@ -14,11 +14,28 @@ FOLDER_LNG = 15.9819
 
 # Connections
 minio_client = Minio("localhost:9000", access_key="admin", secret_key="password123", secure=False)
-mongo_client = MongoClient("mongodb://admin:password@localhost:27017/?authSource=admin")
+mongo_uri = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+mongo_client = MongoClient(mongo_uri)
 db = mongo_client["bird_db"]
 classifications_col = db["classifications"]
 
 def mock_classification_api(filename):
+    # Example filenames:
+    # "Guttera_pucherani.mp3" -> "Guttera pucherani"
+    # "Acryllium_vulturinum.wav" -> "Acryllium vulturinum"
+
+    base = os.path.splitext(filename)[0]   # remove .mp3/.wav
+    species = base.replace("_", " ").strip()
+
+    return {
+        "status": "success",
+        "timestamp": datetime.now().isoformat(),
+        "identified_species": species,
+        "confidence_score": 0.95,
+        "processed_file": filename
+    }
+
+def mock_classification_api_random(filename):
     """
     Simulates the publicly available classification model ().
     Returns bird info and confidence score.

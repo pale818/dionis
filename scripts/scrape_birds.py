@@ -1,11 +1,12 @@
 import requests
 from pymongo import MongoClient
 import sys
+import os
 
 def scrape_birds():
     # Configuration
     JSON_URL = "https://aves.regoch.net/aves.json"
-    MONGO_URI = "mongodb://admin:password@localhost:27017/?authSource=admin"
+    MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
     DB_NAME = "bird_db"
     COLLECTION_NAME = "species"
 

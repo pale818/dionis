@@ -4,14 +4,20 @@ from confluent_kafka.admin import AdminClient, NewTopic
 
 SEARCH_FILTER = config.get("filter", "")
 
-
-
 rule all:
     input:
         "data/csv/bird_statistics_report.csv",
         "data/visualizations/sightings_chart.png" 
 
+rule scrape_birds:
+    output:
+        touch("data/.scrape_done")
+    script:
+        "scripts/scrape_birds.py"
+
 rule run_kafka_producer:
+    input:
+        "data/.scrape_done" 
     output:
         touch("data/.producer_done")
     script:
@@ -26,6 +32,8 @@ rule run_kafka_consumer:
         "scripts/kafka_consumer.py"
 
 rule run_audio:
+    input:
+        "data/.scrape_done" 
     output:
         touch("data/.audio_done")
     script:
@@ -47,14 +55,15 @@ rule visualize_results:
         "data/visualizations/sightings_chart.png"
     script:
         "scripts/visualize_data.py"
- 
+
 rule clean:
     run:
-        client = pymongo.MongoClient("mongodb://admin:password@localhost:27017/?authSource=admin")
+        client = pymongo.MongoClient("mongodb://localhost:27017")
         db = client["bird_db"]
         db.observations.delete_many({})
         db.classifications.delete_many({})
-        print("MongoDB: Cleared observations and classifications.")
+        db.species.delete_many({}) 
+        print("MongoDB: Cleared species, observations, and classifications.")
 
         s3 = Minio("localhost:9000", access_key="admin", secret_key="password123", secure=False)
         bucket = "bird-audio"
@@ -77,4 +86,4 @@ rule clean:
         shell("rm -f data/.*_done")
         shell("rm -f data/csv/bird_statistics_report.csv")
         shell("rm -f data/visualizations/sightings_chart.png")
-        print("Filesystem: Removed marker files and report.")
+        print("Filesystem: Removed marker files and reports.")

@@ -2,9 +2,10 @@ pymongo
 boto3
 pandas
 confluent-kafka
-snakemake
 requests
 beautifulsoup4
-minio   
+minio
 thefuzz
 matplotlib
+snakemake>=8.0,<9.0
+pulp>=2.9,<3.0

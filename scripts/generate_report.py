@@ -1,29 +1,48 @@
 import csv
 import sys
 from pymongo import MongoClient
-from thefuzz import process
+from thefuzz import process, fuzz
+import os
 
 # --- CONFIGURATION ---
-mongo_client = MongoClient("mongodb://admin:password@localhost:27017/?authSource=admin")
+mongo_uri = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+mongo_client = MongoClient(mongo_uri)
 db = mongo_client["bird_db"]
 
 def generate_report(search_query=None):
+    # Normalize Snakemake / shell inputs
+    raw_query = search_query
+    search_query = (search_query or "").strip()
+
+    if search_query.lower() in ("", "none", "null"):
+        search_query = None
+
+    print("generate_report search_query raw:", repr(raw_query))
+    print("generate_report search_query normalized:", repr(search_query))
+
+
     # 1. Fetch species backbone
     all_species = list(db.species.find())
     species_names = [s["latin_name"] for s in all_species]
 
     # 2. Fuzzy Filtering (Optional parameter)
     filtered_names = species_names
-    if search_query:
-        matches = process.extract(search_query, species_names, limit=10)
-        filtered_names = [m[0] for m in matches if m[1] > 60]
+    if search_query is not None:
+        matches = process.extractBests(
+            search_query,
+            species_names,
+            scorer=fuzz.WRatio,
+            score_cutoff=60,
+            limit=None
+        )
+        filtered_names = [m[0] for m in matches]
 
     report_data = []
 
     #print("filtered names: ", filtered_names)
+    species_map = {s["latin_name"]: s for s in all_species}
     for latin_name in filtered_names:
-        species_info = next(s for s in all_species if s["latin_name"] == latin_name)
-        
+        species_info = species_map[latin_name]
         # Count sightings from both sources
         k_count = db.observations.count_documents({"taxonomy_code": latin_name})
         a_count = db.classifications.count_documents({"classification.species": latin_name})

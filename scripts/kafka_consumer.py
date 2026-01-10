@@ -1,10 +1,12 @@
 from confluent_kafka import Consumer
 from pymongo import MongoClient
 import json
+import os
 
 # Connection to your MongoDB
-client = MongoClient("mongodb://admin:password@localhost:27017/?authSource=admin")
-db = client["bird_db"]
+mongo_uri = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+mongo_client = MongoClient(mongo_uri)
+db = mongo_client["bird_db"]
 obs_collection = db["observations"]
 
 conf = {

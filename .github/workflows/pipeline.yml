@@ -1,0 +1,129 @@
+name: Dionis Pipeline Execution
+
+on:
+  workflow_dispatch:
+    inputs:
+      fuzzy_filter:
+        description: "Optional: Species name for fuzzy filtering"
+        required: false
+        default: ""
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    services:
+      mongo:
+        image: mongo:latest
+        ports:
+          - 27017:27017
+
+      zookeeper:
+        image: zookeeper:latest
+        ports:
+          - 2181:2181
+
+      kafka:
+        image: wurstmeister/kafka:latest
+        ports:
+          - 9092:9092
+        env:
+          KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+          KAFKA_ADVERTISED_LISTENERS: EXTERNAL://localhost:9092,INTERNAL://kafka:29092
+          KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+          KAFKA_LISTENERS: INTERNAL://0.0.0.0:29092,EXTERNAL://0.0.0.0:9092
+          KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Debug versions
+        run: |
+          python - << 'EOF'
+          import snakemake
+          import pulp
+          print("Snakemake:", snakemake.__version__)
+          print("PuLP:", pulp.__version__)
+          print("Has list_solvers:", hasattr(pulp, "list_solvers"))
+          EOF
+
+
+      # MinIO MUST be started as a normal step so the command "server /data ..." is not
+      # incorrectly injected into `docker create` by GitHub Actions services.
+      - name: Start MinIO
+        run: |
+          docker run -d --name minio \
+            -p 9000:9000 -p 9001:9001 \
+            -e MINIO_ROOT_USER=admin \
+            -e MINIO_ROOT_PASSWORD=password123 \
+            minio/minio:latest server /data --console-address ":9001"
+
+      - name: Wait for Services (Kafka/Mongo/MinIO)
+        run: |
+          set -e
+
+          echo "Waiting for MongoDB on localhost:27017 ..."
+          for i in {1..60}; do
+            if nc -z localhost 27017; then
+              echo "MongoDB is up."
+              break
+            fi
+            sleep 1
+          done
+
+          echo "Waiting for Kafka on localhost:9092 ..."
+          for i in {1..90}; do
+            if nc -z localhost 9092; then
+              echo "Kafka port is open."
+              break
+            fi
+            sleep 1
+          done
+
+          echo "Waiting for MinIO ready endpoint ..."
+          for i in {1..60}; do
+            if curl -fsS http://localhost:9000/minio/health/ready >/dev/null; then
+              echo "MinIO is ready."
+              exit 0
+            fi
+            sleep 1
+          done
+
+          echo "Services did not become ready in time." >&2
+          echo "--- docker ps ---"
+          docker ps -a || true
+          echo "--- MinIO logs ---"
+          docker logs minio || true
+          exit 1
+
+      - name: Create Data Directories
+        run: mkdir -p data/csv data/visualizations
+
+      - name: Run Snakemake Pipeline
+        run: |
+          snakemake --cores 1 all --config filter="${{ github.event.inputs.fuzzy_filter }}"
+        env:
+          MONGO_URI: mongodb://localhost:27017
+
+          MINIO_ENDPOINT: localhost:9000
+          KAFKA_BOOTSTRAP: localhost:9092
+
+      - name: Upload Report and Visualization
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dionis-outputs
+          path: |
+            data/csv/bird_statistics_report.csv
+            data/visualizations/sightings_chart.png
