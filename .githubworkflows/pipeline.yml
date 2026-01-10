@@ -1,0 +1,88 @@
+name: Dionis Pipeline Execution
+
+on:
+  workflow_dispatch:
+    inputs:
+      fuzzy_filter:
+        description: 'Optional: Species name for fuzzy filtering'
+        required: false
+        default: ''
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    services:
+      # 1. MongoDB (matches your docker-compose)
+      mongo:
+        image: mongo:latest
+        ports:
+          - 27017:27017
+
+      # 2. MinIO (matches your docker-compose config)
+      minio:
+        image: minio/minio:latest
+        ports:
+          - 9000:9000
+        env:
+          MINIO_ROOT_USER: admin
+          MINIO_ROOT_PASSWORD: password123
+        args: server /data
+
+      # 3. Kafka Infrastructure (mirrors your local Zookeeper+Kafka setup)
+      zookeeper:
+        image: zookeeper:latest
+        ports:
+          - 2181:2181
+      
+      kafka:
+        image: wurstmeister/kafka:latest
+        ports:
+          - 9092:9092
+        env:
+          KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+          KAFKA_ADVERTISED_LISTENERS: EXTERNAL://localhost:9092,INTERNAL://kafka:29092
+          KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+          KAFKA_LISTENERS: INTERNAL://0.0.0.0:29092,EXTERNAL://0.0.0.0:9092
+          KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+
+          
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # CRITICAL: Kafka takes time to initialize. 
+      # This prevents "ConnectionRefusedError" in your scripts.
+      - name: Wait for Services (Kafka/Mongo/MinIO)
+        run: sleep 20
+
+      - name: Create Data Directories
+        run: mkdir -p data/csv data/visualizations
+
+      - name: Run Snakemake Pipeline
+        # We pass the fuzzy filter from the manual UI input
+        run: |
+          snakemake --cores 1 --config filter="${{ github.event.inputs.fuzzy_filter }}"
+        env:
+          MONGO_URI: mongodb://admin:password@localhost:27017
+          MINIO_ENDPOINT: localhost:9000
+          KAFKA_BOOTSTRAP: localhost:9092
+
+      - name: Upload Report and Visualization
+        if: always() # Upload even if a step failed so you can see logs
+        uses: actions/upload-artifact@v3
+        with:
+          name: dionis-outputs
+          path: |
+            data/csv/bird_statistics_report.csv
+            data/visualizations/sightings_chart.png

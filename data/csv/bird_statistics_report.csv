@@ -1,5 +1,1001 @@
 Species Name,Common Name,Total Sightings,Family,Additional Info
-Guttera pucherani,"Guttera pucherani (Hartlaub, 1861)",3,Numididae,habitat: Forest | body_size: Medium
+Guttera pucherani,"Guttera pucherani (Hartlaub, 1861)",2,Numididae,habitat: Forest | body_size: Medium | behavior: Foraging
 Guttera edouardi,"Guttera edouardi (Hartlaub, 1867)",0,Numididae,No extra data
 Guttera plumifera,"Guttera plumifera (Cassin, 1857)",0,Numididae,No extra data
+Agelastes niger,"Agelastes niger (Cassin, 1857)",2,Numididae,migration_status: Active | wing_span: 45cm | body_temp: 41.2
+Agelastes meleagrides,"Agelastes meleagrides Bonaparte, 1850",0,Numididae,No extra data
+Acryllium vulturinum,"Acryllium vulturinum (Hardwicke, 1834)",2,Numididae,habitat: Savanna | flight_pattern: Low altitude | group_size: 12
+Numida meleagris,"Numida meleagris (Linnaeus, 1758)",0,Numididae,No extra data
+Numida reichenowi,"Numida reichenowi Ogilvie-Grant, 1894",0,Numididae,No extra data
+Perdicula manipurensis,"Perdicula manipurensis Hume, 1881",0,Phasianidae,No extra data
+Perdicula asiatica,"Perdicula asiatica (Latham, 1790)",0,Phasianidae,No extra data
+Perdicula erythrorhyncha,"Perdicula erythrorhyncha (Sykes, 1832)",0,Phasianidae,No extra data
+Perdicula argoondah,"Perdicula argoondah (Sykes, 1832)",0,Phasianidae,No extra data
+Lagopus lagopus,"Lagopus lagopus (Linnaeus, 1758)",0,Phasianidae,No extra data
+Tetraogallus caspius,"Tetraogallus caspius (S.G.Gmelin, 1784)",0,Phasianidae,No extra data
+Tetraogallus caucasicus,"Tetraogallus caucasicus (Pallas, 1811)",0,Phasianidae,No extra data
+Tetraogallus tibetanus,"Tetraogallus tibetanus Gould, 1854",0,Phasianidae,No extra data
+Tetraogallus altaicus,"Tetraogallus altaicus (Gebler, 1836)",0,Phasianidae,No extra data
+Tetraogallus himalayensis,"Tetraogallus himalayensis G.R.Gray, 1843",0,Phasianidae,No extra data
+Anurophasis monorthonyx,"Anurophasis monorthonyx van Oort, 1910",0,Phasianidae,No extra data
+Melanoperdix niger,"Melanoperdix niger (Vigors, 1829)",0,Phasianidae,No extra data
+Melanoperdix nigra,"Melanoperdix nigra (Vigors, 1829)",0,Phasianidae,No extra data
+Syrmaticus reevesii,"Syrmaticus reevesii (J.E.Gray, 1829)",0,Phasianidae,No extra data
+Syrmaticus humiae,"Syrmaticus humiae (Hume, 1881)",0,Phasianidae,No extra data
+Syrmaticus mikado,"Syrmaticus mikado (Ogilvie-Grant, 1906)",0,Phasianidae,No extra data
+Syrmaticus ellioti,"Syrmaticus ellioti (Swinhoe, 1872)",0,Phasianidae,No extra data
+Syrmaticus soemmerringii,"Syrmaticus soemmerringii (Temminck, 1830)",0,Phasianidae,No extra data
+Falcipennis canadensis,"Falcipennis canadensis (Linnaeus, 1758)",0,Phasianidae,No extra data
+Dendragapus canadensis,"Dendragapus canadensis (Linnaeus, 1758)",0,Phasianidae,No extra data
+Canachites canadensis,"Canachites canadensis (Linnaeus, 1758)",0,Phasianidae,No extra data
+Falcipennis falcipennis,"Falcipennis falcipennis (Hartlaub, 1855)",0,Phasianidae,No extra data
+Dendragapus falcipennis,"Dendragapus falcipennis (Hartlaub, 1855)",0,Phasianidae,No extra data
+Tympanuchus cupido,"Tympanuchus cupido (Linnaeus, 1758)",0,Phasianidae,No extra data
+Tympanuchus phasianellus,"Tympanuchus phasianellus (Linnaeus, 1758)",0,Phasianidae,No extra data
+Pedioecetes phasianellus,"Pedioecetes phasianellus (Linnaeus, 1758)",0,Phasianidae,No extra data
+Tympanuchus pallidicinctus,"Tympanuchus pallidicinctus (Ridgway, 1873)",0,Phasianidae,No extra data
+Tetraophasis obscurus,"Tetraophasis obscurus (J.Verreaux, 1869)",0,Phasianidae,No extra data
+Tetraophasis szechenyii,"Tetraophasis szechenyii Madarász, 1885",0,Phasianidae,No extra data
+Tragopan satyra,"Tragopan satyra (Linnaeus, 1758)",0,Phasianidae,No extra data
+Tragopan blythii,"Tragopan blythii (Jerdon, 1870)",0,Phasianidae,No extra data
+Tragopan melanocephalus,"Tragopan melanocephalus (J.E.Gray, 1829)",0,Phasianidae,No extra data
+Tragopan temminckii,"Tragopan temminckii (J.E.Gray, 1831)",0,Phasianidae,No extra data
+Tragopan caboti,"Tragopan caboti (Gould, 1857)",0,Phasianidae,No extra data
+Agriocharis ocellata,"Agriocharis ocellata (Cuvier, 1820)",0,Phasianidae,No extra data
+Margaroperdix madagarensis,"Margaroperdix madagarensis (Scopoli, 1786)",0,Phasianidae,No extra data
+Margaroperdix madagascariensis,"Margaroperdix madagascariensis (Scopoli, 1786)",0,Phasianidae,No extra data
+Pucrasia macrolopha,"Pucrasia macrolopha (R.Lesson, 1829)",0,Phasianidae,No extra data
+Tetrao parvirostris,"Tetrao parvirostris Bonaparte, 1856",0,Phasianidae,No extra data
+Tetrao urogallus,"Tetrao urogallus Linnaeus, 1758",0,Phasianidae,No extra data
+Pavo muticus,"Pavo muticus Linnaeus, 1766",0,Phasianidae,No extra data
+Arborophila rufipectus,"Arborophila rufipectus Boulton, 1932",0,Phasianidae,No extra data
+Arborophila torqueola,"Arborophila torqueola (Valenciennes, 1825)",0,Phasianidae,No extra data
+Arborophila hyperythra,"Arborophila hyperythra (Sharpe, 1879)",0,Phasianidae,No extra data
+Arborophila orientalis,"Arborophila orientalis (Horsfield, 1821)",0,Phasianidae,No extra data
+Arborophila rufogularis,"Arborophila rufogularis (Blyth, 1849)",0,Phasianidae,No extra data
+Arborophila rolli,"Arborophila rolli (Rothschild, 1909)",0,Phasianidae,No extra data
+Arborophila charltoni,"Arborophila charltoni (Eyton, 1845)",0,Phasianidae,No extra data
+Arborophila ardens,"Arborophila ardens (Styan, 1892)",0,Phasianidae,No extra data
+Arborophila brunneopectus,"Arborophila brunneopectus (Blyth, 1855)",0,Phasianidae,No extra data
+Arborophila chloropus,"Arborophila chloropus (Blyth, 1859)",0,Phasianidae,No extra data
+Arborophila merlini,"Arborophila merlini (Delacour & Jabouille, 1924)",0,Phasianidae,No extra data
+Arborophila davidi,"Arborophila davidi Delacour, 1927",0,Phasianidae,No extra data
+Arborophila javanica,"Arborophila javanica (J.F.Gmelin, 1789)",0,Phasianidae,No extra data
+Arborophila mandellii,"Arborophila mandellii Hume, 1874",0,Phasianidae,No extra data
+Arborophila rubrirostris,"Arborophila rubrirostris (Salvadori, 1879)",0,Phasianidae,No extra data
+Arborophila campbelli,"Arborophila campbelli (Robinson, 1904)",0,Phasianidae,No extra data
+Arborophila sumatrana,"Arborophila sumatrana Ogilvie-Grant, 1891",0,Phasianidae,No extra data
+Arborophila atrogularis,"Arborophila atrogularis (Blyth, 1849)",0,Phasianidae,No extra data
+Arborophila cambodiana,"Arborophila cambodiana Delacour & Jabouille, 1928",0,Phasianidae,No extra data
+Arborophila crudigularis,"Arborophila crudigularis (Swinhoe, 1864)",0,Phasianidae,No extra data
+Arborophila gingica,"Arborophila gingica (J.F.Gmelin, 1789)",0,Phasianidae,No extra data
+Ophrysia superciliosa,"Ophrysia superciliosa (J.E.Gray, 1846)",0,Phasianidae,No extra data
+Tetrastes sewerzowi,"Tetrastes sewerzowi Przewalski, 1876",0,Phasianidae,No extra data
+Bonasa sewerzowi,"Bonasa sewerzowi (Przewalski, 1876)",0,Phasianidae,No extra data
+Tetrastes bonasia,"Tetrastes bonasia (Linnaeus, 1758)",0,Phasianidae,No extra data
+Bonasa bonasia,"Bonasa bonasia (Linnaeus, 1758)",0,Phasianidae,No extra data
+Afropavo congensis,"Afropavo congensis Chapin, 1936",0,Phasianidae,No extra data
+Lyrurus mlokosiewiczi,"Lyrurus mlokosiewiczi (Taczanowski, 1875)",0,Phasianidae,No extra data
+Tetrao mlokosiewiczi,"Tetrao mlokosiewiczi Taczanowski, 1875",0,Phasianidae,No extra data
+Lyrurus tetrix,"Lyrurus tetrix (Linnaeus, 1758)",0,Phasianidae,No extra data
+Galloperdix bicalcarata,"Galloperdix bicalcarata (J.R.Forster, 1781)",0,Phasianidae,No extra data
+Galloperdix spadicea,"Galloperdix spadicea (J.F.Gmelin, 1789)",0,Phasianidae,No extra data
+Galloperdix lunulata,"Galloperdix lunulata (Valenciennes, 1825)",0,Phasianidae,No extra data
+Bonasa umbellus,"Bonasa umbellus (Linnaeus, 1766)",0,Phasianidae,No extra data
+Haematortyx sanguiniceps,"Haematortyx sanguiniceps Sharpe, 1879",0,Phasianidae,No extra data
+Ammoperdix griseogularis,"Ammoperdix griseogularis (J.F.Brandt, 1843)",0,Phasianidae,No extra data
+Ammoperdix heyi,"Ammoperdix heyi (Temminck, 1825)",0,Phasianidae,No extra data
+Rheinardia ocellata,"Rheinardia ocellata (D.G.Elliot, 1871)",0,Phasianidae,No extra data
+Pternistis jacksoni,"Pternistis jacksoni (Ogilvie-Grant, 1891)",0,Phasianidae,No extra data
+Pternistis afer,"Pternistis afer (P.L.S.Müller, 1776)",0,Phasianidae,No extra data
+Scleroptila levaillantii,"Scleroptila levaillantii (Valenciennes, 1825)",0,Phasianidae,No extra data
+Peliperdix albogularis,"Peliperdix albogularis (Hartlaub, 1854)",0,Phasianidae,No extra data
+Pternistis natalensis,"Pternistis natalensis (A.Smith, 1833)",0,Phasianidae,No extra data
+Pternistis capensis,"Pternistis capensis (J.F.Gmelin, 1789)",0,Phasianidae,No extra data
+Pternistis clappertoni,"Pternistis clappertoni (Children & Vigors, 1826)",0,Phasianidae,No extra data
+Scleroptila finschi,"Scleroptila finschi (Barboza du Bocage, 1881)",0,Phasianidae,No extra data
+Peliperdix schlegelii,"Peliperdix schlegelii (Heuglin, 1863)",0,Phasianidae,No extra data
+Pternistis squamatus,"Pternistis squamatus (Cassin, 1857)",0,Phasianidae,No extra data
+Pternistis hildebrandti,"Pternistis hildebrandti (Cabanis, 1878)",0,Phasianidae,No extra data
+Pternistis icterorhynchus,"Pternistis icterorhynchus (Heuglin, 1863)",0,Phasianidae,No extra data
+Pternistis adspersus,"Pternistis adspersus (Waterhouse, 1838)",0,Phasianidae,No extra data
+Pternistis leucoscepus,"Pternistis leucoscepus (G.R.Gray, 1867)",0,Phasianidae,No extra data
+Pternistis ahantensis,"Pternistis ahantensis (Temminck, 1854)",0,Phasianidae,No extra data
+Pternistis nahani,"Pternistis nahani (A.J.C.Dubois, 1905)",0,Odontophoridae,No extra data
+Pternistis camerunensis,"Pternistis camerunensis (Alexander, 1909)",0,Phasianidae,No extra data
+Pternistis ochropectus,"Pternistis ochropectus (Dorst & Jouanin, 1952)",0,Phasianidae,No extra data
+Pternistis erckelii,"Pternistis erckelii (Rüppell, 1835)",0,Phasianidae,No extra data
+Pternistis rufopictus,"Pternistis rufopictus Reichenow, 1887",0,Phasianidae,No extra data
+Pternistis griseostriatus,"Pternistis griseostriatus (Ogilvie-Grant, 1890)",0,Phasianidae,No extra data
+Scleroptila shelleyi,"Scleroptila shelleyi (Ogilvie-Grant, 1890)",0,Phasianidae,No extra data
+Pternistis harwoodi,"Pternistis harwoodi (Blundell & Lovat, 1899)",0,Phasianidae,No extra data
+Pternistis swierstrai,"Pternistis swierstrai (Roberts, 1929)",0,Phasianidae,No extra data
+Peliperdix lathami,"Peliperdix lathami (Hartlaub, 1854)",0,Phasianidae,No extra data
+Scleroptila africanus,"Scleroptila africanus (Stephens, 1819)",0,Phasianidae,No extra data
+Scleroptila levalliantoides,"Scleroptila levalliantoides (A.Smith, 1836)",0,Phasianidae,No extra data
+Pternistis bicalcaratus,"Pternistis bicalcaratus (Linnaeus, 1766)",0,Phasianidae,No extra data
+Pternistis nobilis,"Pternistis nobilis (Reichenow, 1908)",0,Phasianidae,No extra data
+Pternistis castaneicollis,"Pternistis castaneicollis (Salvadori, 1888)",0,Phasianidae,No extra data
+Peliperdix coqui,"Peliperdix coqui (A.Smith, 1836)",0,Phasianidae,No extra data
+Peliperdix sephaena,"Peliperdix sephaena (A.Smith, 1836)",0,Phasianidae,No extra data
+Pternistis hartlaubi,"Pternistis hartlaubi (Barboza du Bocage, 1869)",0,Phasianidae,No extra data
+Pternistis swainsonii,"Pternistis swainsonii (A.Smith, 1836)",0,Phasianidae,No extra data
+Perdix perdix,"Perdix perdix (Linnaeus, 1758)",0,Phasianidae,No extra data
+Lerwa lerwa,"Lerwa lerwa (Hodgson, 1833)",0,Phasianidae,No extra data
+Alectoris chukar,"Alectoris chukar (J.E.Gray, 1830)",0,Phasianidae,No extra data
+Alectoris barbara,"Alectoris barbara (Bonnaterre, 1790)",0,Phasianidae,No extra data
+Alectoris rufa,"Alectoris rufa (Linnaeus, 1758)",0,Phasianidae,No extra data
+Alectoris graeca,"Alectoris graeca (Meisner, 1804)",0,Phasianidae,No extra data
+Ithaginis cruentus,"Ithaginis cruentus (Hardwicke, 1821)",0,Phasianidae,No extra data
+Polyplectron inopinatum,"Polyplectron inopinatum (Rothschild, 1903)",0,Phasianidae,No extra data
+Polyplectron napoleonis,"Polyplectron napoleonis R.Lesson, 1831",0,Phasianidae,No extra data
+Polyplectron emphanum,"Polyplectron emphanum Temminck, 1832",0,Phasianidae,No extra data
+Polyplectron schleiermacheri,"Polyplectron schleiermacheri Brüggemann, 1877",0,Phasianidae,No extra data
+Polyplectron germaini,"Polyplectron germaini D.G.Elliot, 1866",0,Phasianidae,No extra data
+Polyplectron bicalcaratum,"Polyplectron bicalcaratum (Linnaeus, 1758)",0,Phasianidae,No extra data
+Polyplectron chalcurum,"Polyplectron chalcurum R.Lesson, 1831",0,Phasianidae,No extra data
+Polyplectron malacense,"Polyplectron malacense (Scopoli, 1786)",0,Phasianidae,No extra data
+Ptilopachus petrosus,"Ptilopachus petrosus (J.F.Gmelin, 1789)",0,Odontophoridae,No extra data
+Rhizothera longirostris,"Rhizothera longirostris (Temminck, 1815)",0,Phasianidae,No extra data
+Rhizothera dulitensis,"Rhizothera dulitensis Ogilvie-Grant, 1895",0,Phasianidae,No extra data
+Crossoptilon mantchuricum,"Crossoptilon mantchuricum Swinhoe, 1863",0,Phasianidae,No extra data
+Crossoptilon auritum,"Crossoptilon auritum (Pallas, 1811)",0,Phasianidae,No extra data
+Crossoptilon harmani,"Crossoptilon harmani Elwes, 1881",0,Phasianidae,No extra data
+Crossoptilon crossoptilon,"Crossoptilon crossoptilon (Hodgson, 1838)",0,Phasianidae,No extra data
+Caloperdix oculeus,"Caloperdix oculeus (Temminck, 1815)",0,Phasianidae,No extra data
+Rollulus rouloul,"Rollulus rouloul (Scopoli, 1786)",0,Phasianidae,No extra data
+Rollulus roulroul,"Rollulus roulroul (Scopoli, 1786)",0,Phasianidae,No extra data
+Xenoperdix udzungwensis,"Xenoperdix udzungwensis Dinesen, Lehmberg, Svendsen, Hansen & Fjeldså, 1994",0,Phasianidae,No extra data
+Coturnix pectoralis,"Coturnix pectoralis Gould, 1837",0,Phasianidae,No extra data
+Coturnix chinensis,"Coturnix chinensis (Linnaeus, 1766)",0,Phasianidae,No extra data
+Coturnix adansonii,"Coturnix adansonii J.Verreaux & É.Verreaux, 1851",0,Phasianidae,No extra data
+Coturnix novaezelandiae,"Coturnix novaezelandiae Quoy & Gaimard, 1832",0,Phasianidae,No extra data
+Coturnix novaezealandiae,"Coturnix novaezealandiae Quoy & Gaimard, 1830",0,Phasianidae,No extra data
+Coturnix delegorguei,"Coturnix delegorguei Delegorgue, 1847",0,Phasianidae,No extra data
+Coturnix ypsilophora,"Coturnix ypsilophora Bosc, 1792",0,Phasianidae,No extra data
+Synoicus ypsilophorus,"Synoicus ypsilophorus (Bosc, 1792)",0,Phasianidae,No extra data
+Coturnix coturnix,"Coturnix coturnix (Linnaeus, 1758)",0,Phasianidae,No extra data
+Coturnix japonica,"Coturnix japonica Temminck & Schlegel, 1848",0,Phasianidae,No extra data
+Coturnix coromandelica,"Coturnix coromandelica (J.F.Gmelin, 1789)",0,Phasianidae,No extra data
+Rhynchortyx cinctus,"Rhynchortyx cinctus (Salvin, 1876)",0,Odontophoridae,No extra data
+Philortyx fasciatus,"Philortyx fasciatus (Gould, 1844)",0,Odontophoridae,No extra data
+Lophortyx douglasii,"Lophortyx douglasii (Vigors, 1829)",0,Odontophoridae,No extra data
+Lophortyx gambelii,"Lophortyx gambelii Gambel, 1843",0,Odontophoridae,No extra data
+Lophortyx californica,"Lophortyx californica (Shaw, 1798)",0,Odontophoridae,No extra data
+Dactylortyx thoracicus,"Dactylortyx thoracicus (Gambel, 1848)",0,Odontophoridae,No extra data
+Dendrortyx barbatus,"Dendrortyx barbatus Gould, 1846",0,Odontophoridae,No extra data
+Dendrortyx macroura,"Dendrortyx macroura (Jardine & Selby, 1828)",0,Odontophoridae,No extra data
+Dendrortyx leucophrys,"Dendrortyx leucophrys (Gould, 1844)",0,Odontophoridae,No extra data
+Cyrtonyx ocellatus,"Cyrtonyx ocellatus (Gould, 1837)",0,Odontophoridae,No extra data
+Cyrtonyx montezumae,"Cyrtonyx montezumae (Vigors, 1830)",0,Odontophoridae,No extra data
+Oreortyx pictus,"Oreortyx pictus (Douglas, 1829)",0,Odontophoridae,No extra data
+Chunga burmeisteri,"Chunga burmeisteri (Hartlaub, 1860)",0,Cariamidae,No extra data
+Eurypyga helias,"Eurypyga helias (Pallas, 1781)",0,Eurypygidae,No extra data
+Aramus guarauna,"Aramus guarauna (Linnaeus, 1766)",0,Aramidae,No extra data
+Heliornis fulica,"Heliornis fulica (Boddaert, 1783)",0,Heliornithidae,No extra data
+Podica senegalensis,"Podica senegalensis (Vieillot, 1817)",0,Heliornithidae,No extra data
+Heliopais personatus,"Heliopais personatus (G.R.Gray, 1849)",0,Heliornithidae,No extra data
+Rhynochetos jubatus,"Rhynochetos jubatus J.Verreaux & Des Murs, 1860",0,Rhynochetidae,No extra data
+Psophia viridis,"Psophia viridis Spix, 1825",0,Psophiidae,No extra data
+Psophia leucoptera,"Psophia leucoptera Spix, 1825",0,Psophiidae,No extra data
+Psophia crepitans,"Psophia crepitans Linnaeus, 1758",0,Psophiidae,No extra data
+Cyanolimnas cerverai,"Cyanolimnas cerverai Barbour & J.L.Peters, 1927",0,Rallidae,No extra data
+Eulabeornis castaneoventris,"Eulabeornis castaneoventris Gould, 1844",0,Rallidae,No extra data
+Fulica atra,"Fulica atra Linnaeus, 1758",0,Rallidae,No extra data
+Fulica cristata,"Fulica cristata Gmelin, 1789",0,Rallidae,No extra data
+Fulica armillata,"Fulica armillata Vieillot, 1817",0,Rallidae,No extra data
+Fulica ardesiaca,"Fulica ardesiaca Tschudi, 1843",0,Rallidae,No extra data
+Fulica alai,"Fulica alai Peale, 1848",0,Rallidae,No extra data
+Fulica leucoptera,"Fulica leucoptera Vieillot, 1817",0,Rallidae,No extra data
+Fulica cornuta,"Fulica cornuta Bonaparte, 1853",0,Rallidae,No extra data
+Fulica rufifrons,"Fulica rufifrons Philippi & Landbeck, 1861",0,Rallidae,No extra data
+Fulica gigantea,"Fulica gigantea Eydoux & Souleyet, 1841",0,Rallidae,No extra data
+Fulica caribaea,"Fulica caribaea Ridgway, 1884",0,Rallidae,No extra data
+Fulica americana,"Fulica americana Gmelin, 1789",0,Rallidae,No extra data
+Himantornis haematopus,"Himantornis haematopus Hartlaub, 1855",0,Rallidae,No extra data
+Micropygia schomburgkii,"Micropygia schomburgkii (Cabanis, 1848)",0,Rallidae,No extra data
+Gallicrex cinerea,"Gallicrex cinerea (Gmelin, 1789)",0,Rallidae,No extra data
+Nesoclopeus poecilopterus,"Nesoclopeus poecilopterus (Hartlaub, 1866)",0,Rallidae,No extra data
+Nesoclopeus woodfordi,"Nesoclopeus woodfordi (Ogilvie-Grant, 1889)",0,Rallidae,No extra data
+Porphyrula martinica,"Porphyrula martinica (Linnaeus, 1766)",0,Rallidae,No extra data
+Porphyrio porphyrio,"Porphyrio porphyrio (Linnaeus, 1758)",0,Rallidae,No extra data
+Porphyrula alleni,"Porphyrula alleni (Thomson, 1842)",0,Rallidae,No extra data
+Notornis mantelli,"Notornis mantelli Owen, 1848",0,Rallidae,No extra data
+Porphyrula flavirostris,"Porphyrula flavirostris (Gmelin, 1789)",0,Rallidae,No extra data
+Crecopsis egregia,"Crecopsis egregia (W.Peters, 1854)",0,Rallidae,No extra data
+Megacrex inepta,"Megacrex inepta Albertis & Salvadori, 1879",0,Rallidae,No extra data
+Amaurolimnas concolor,"Amaurolimnas concolor (Gosse, 1847)",0,Rallidae,No extra data
+Aramidopsis plateni,"Aramidopsis plateni (W.Blasius, 1886)",0,Rallidae,No extra data
+Rallina rubra,"Rallina rubra (Schlegel, 1871)",0,Rallidae,No extra data
+Rallicula rubra,"Rallicula rubra Schlegel, 1871",0,Rallidae,No extra data
+Rallina eurizonoides,"Rallina eurizonoides (Lafresnaye, 1845)",0,Rallidae,No extra data
+Rallina mayri,"Rallina mayri (Hartert, 1930)",0,Rallidae,No extra data
+Rallicula mayri,"Rallicula mayri Hartert, 1930",0,Rallidae,No extra data
+Rallina forbesi,"Rallina forbesi (Sharpe, 1887)",0,Rallidae,No extra data
+Rallicula forbesi,"Rallicula forbesi Sharpe, 1887",0,Rallidae,No extra data
+Rallina canningi,"Rallina canningi (Blyth, 1863)",0,Rallidae,No extra data
+Rallina leucospila,"Rallina leucospila (Salvadori, 1876)",0,Rallidae,No extra data
+Rallicula leucospila,"Rallicula leucospila (Salvadori, 1876)",0,Rallidae,No extra data
+Rallina fasciata,"Rallina fasciata (Raffles, 1822)",0,Rallidae,No extra data
+Rallina tricolor,"Rallina tricolor G.R.Gray, 1858",0,Rallidae,No extra data
+Habroptila wallacii,"Habroptila wallacii G.R.Gray, 1861",0,Rallidae,No extra data
+Anurolimnas castaneiceps,"Anurolimnas castaneiceps (P.L.Sclater & Salvin, 1869)",0,Rallidae,No extra data
+Anurolimnas viridis,"Anurolimnas viridis (Statius Muller, 1776)",0,Rallidae,No extra data
+Laterallus viridis,"Laterallus viridis (Statius Muller, 1776)",0,Rallidae,No extra data
+Anurolimnas fasciatus,"Anurolimnas fasciatus (P.L.Sclater & Salvin, 1868)",0,Rallidae,No extra data
+Laterallus fasciatus,"Laterallus fasciatus (P.L.Sclater & Salvin, 1868)",0,Rallidae,No extra data
+Gallirallus calayanensis,"Gallirallus calayanensis D.Allen, C.Oliveros, C.Espanola G.Broad & J.C.T.Gonzalez, 2004",0,Rallidae,No extra data
+Gallirallus dieffenbachii,"Gallirallus dieffenbachii (G.R.Gray, 1843)",0,Rallidae,No extra data
+Gallirallus modestus,"Gallirallus modestus (Hutton, 1872)",0,Rallidae,No extra data
+Gallirallus pacificus,"Gallirallus pacificus (Gmelin, 1789)",0,Rallidae,No extra data
+Gallirallus rovianae,"Gallirallus rovianae Diamond, 1991",0,Rallidae,No extra data
+Gallirallus striatus,"Gallirallus striatus (Linnaeus, 1766)",0,Rallidae,No extra data
+Rallus striatus,"Rallus striatus Linnaeus, 1766",0,Rallidae,No extra data
+Gallirallus wakensis,"Gallirallus wakensis (Rothschild, 1903)",0,Rallidae,No extra data
+Rallus wakensis,"Rallus wakensis (Rothschild, 1903)",0,Rallidae,No extra data
+Gallirallus australis,"Gallirallus australis (Sparrman, 1786)",0,Rallidae,No extra data
+Gallirallus insignis,"Gallirallus insignis (P.L.Sclater, 1880)",0,Rallidae,No extra data
+Habropteryx insignis,"Habropteryx insignis (P.L.Sclater, 1880)",0,Rallidae,No extra data
+Gallirallus okinawae,"Gallirallus okinawae (Yamashina & Mano, 1981)",0,Rallidae,No extra data
+Gallirallus sharpei,"Gallirallus sharpei (Buttikofer, 1893)",0,Rallidae,No extra data
+Gallirallus sylvestris,"Gallirallus sylvestris (P.L.Sclater, 1870)",0,Rallidae,No extra data
+Gallirallus conditicius,"Gallirallus conditicius (Peters & Griscom, 1928)",0,Rallidae,No extra data
+Tricholimnas sylvestris,"Tricholimnas sylvestris (P.L.Sclater, 1870)",0,Rallidae,No extra data
+Gallirallus lafresnayanus,"Gallirallus lafresnayanus J.Verreaux & Des Murs, 1860",0,Rallidae,No extra data
+Gallirallus owstoni,"Gallirallus owstoni (Rothschild, 1895)",0,Rallidae,No extra data
+Rallus owstoni,"Rallus owstoni (Rothschild, 1895)",0,Rallidae,No extra data
+Gallirallus philippensis,"Gallirallus philippensis (Linnaeus, 1766)",0,Rallidae,No extra data
+Rallus philippensis,"Rallus philippensis Linnaeus, 1766",0,Rallidae,No extra data
+Gallirallus torquatus,"Gallirallus torquatus (Linnaeus, 1766)",0,Rallidae,No extra data
+Rallus torquatus,"Rallus torquatus Linnaeus, 1766",0,Rallidae,No extra data
+Laterallus melanophaius,"Laterallus melanophaius (Vieillot, 1819)",0,Rallidae,No extra data
+Laterallus levraudi,"Laterallus levraudi (P.L.Sclater & Salvin, 1869)",0,Rallidae,No extra data
+Laterallus exilis,"Laterallus exilis (Temminck, 1831)",0,Rallidae,No extra data
+Laterallus jamaicensis,"Laterallus jamaicensis (Gmelin, 1789)",0,Rallidae,No extra data
+Laterallus xenopterus,"Laterallus xenopterus Conover, 1934",0,Rallidae,No extra data
+Laterallus spilonotus,"Laterallus spilonotus (Gould, 1841)",0,Rallidae,No extra data
+Laterallus leucopyrrhus,"Laterallus leucopyrrhus (Vieillot, 1819)",0,Rallidae,No extra data
+Laterallus albigularis,"Laterallus albigularis (Lawrence, 1861)",0,Rallidae,No extra data
+Laterallus ruber,"Laterallus ruber (P.L.Sclater & Salvin, 1860)",0,Rallidae,No extra data
+Porzana atra,"Porzana atra North, 1908",0,Rallidae,No extra data
+Porzana tabuensis,"Porzana tabuensis (Gmelin, 1789)",0,Rallidae,No extra data
+Porzana monasa,"Porzana monasa (Kittlitz, 1858)",0,Rallidae,No extra data
+Porzana cinerea,"Porzana cinerea (Vieillot, 1819)",0,Rallidae,No extra data
+Porzana fluminea,"Porzana fluminea Gould, 1843",0,Rallidae,No extra data
+Porzana paykullii,"Porzana paykullii (Ljungh, 1813)",0,Rallidae,No extra data
+Porzana albicollis,"Porzana albicollis (Vieillot, 1819)",0,Rallidae,No extra data
+Porzana palmeri,"Porzana palmeri (Frohawk, 1892)",0,Rallidae,No extra data
+Porzana spiloptera,"Porzana spiloptera Durnford, 1877",0,Rallidae,No extra data
+Porzana porzana,"Porzana porzana (Linnaeus, 1766)",0,Rallidae,No extra data
+Porzana fusca,"Porzana fusca (Linnaeus, 1766)",0,Rallidae,No extra data
+Porzana parva,"Porzana parva (Scopoli, 1769)",0,Rallidae,No extra data
+Porzana pusilla,"Porzana pusilla (Pallas, 1776)",0,Rallidae,No extra data
+Porzana bicolor,"Porzana bicolor Walden, 1872",0,Rallidae,No extra data
+Amaurornis bicolor,"Amaurornis bicolor (Walden, 1872)",0,Rallidae,No extra data
+Porzana sandwichensis,"Porzana sandwichensis (Gmelin, 1789)",0,Rallidae,No extra data
+Porzana carolina,"Porzana carolina (Linnaeus, 1758)",0,Rallidae,No extra data
+Porzana flaviventer,"Porzana flaviventer (Boddaert, 1783)",0,Rallidae,No extra data
+Dryolimnas cuvieri,"Dryolimnas cuvieri (Pucheran, 1845)",0,Rallidae,No extra data
+Aenigmatolimnas marginalis,"Aenigmatolimnas marginalis (Hartlaub, 1857)",0,Rallidae,No extra data
+Porzana marginalis,"Porzana marginalis Hartlaub, 1857",0,Rallidae,No extra data
+Aramides calopterus,"Aramides calopterus P.L.Sclater & Salvin, 1878",0,Rallidae,No extra data
+Aramides ypecaha,"Aramides ypecaha (Vieillot, 1819)",0,Rallidae,No extra data
+Aramides saracura,"Aramides saracura (Spix, 1825)",0,Rallidae,No extra data
+Aramides cajanea,"Aramides cajanea (Statius Muller, 1776)",0,Rallidae,No extra data
+Aramides wolfi,"Aramides wolfi Berlepsch & Taczanowski, 1884",0,Rallidae,No extra data
+Aramides mangle,"Aramides mangle (Spix, 1825)",0,Rallidae,No extra data
+Aramides axillaris,"Aramides axillaris Lawrence, 1863",0,Rallidae,No extra data
+Porzana exquisita,"Porzana exquisita Swinhoe, 1873",0,Rallidae,No extra data
+Gymnocrex plumbeiventris,"Gymnocrex plumbeiventris (G.R.Gray, 1862)",0,Rallidae,No extra data
+Gymnocrex talaudensis,"Gymnocrex talaudensis Lambert, 1998",0,Rallidae,No extra data
+Gymnocrex rosenbergii,"Gymnocrex rosenbergii (Schlegel, 1866)",0,Rallidae,No extra data
+Rallus pectoralis,"Rallus pectoralis Temminck, 1831",0,Rallidae,No extra data
+Canirallus oculeus,"Canirallus oculeus (Hartlaub, 1855)",0,Rallidae,No extra data
+Canirallus kioloides,"Canirallus kioloides (Pucheran, 1845)",0,Rallidae,No extra data
+Pardirallus nigricans,"Pardirallus nigricans (Vieillot, 1819)",0,Rallidae,No extra data
+Rallus nigricans,"Rallus nigricans Vieillot, 1819",0,Rallidae,No extra data
+Pardirallus maculatus,"Pardirallus maculatus (Boddaert, 1783)",0,Rallidae,No extra data
+Rallus maculatus,"Rallus maculatus Boddaert, 1783",0,Rallidae,No extra data
+Pardirallus sanguinolentus,"Pardirallus sanguinolentus (Swainson, 1838)",0,Rallidae,No extra data
+Rallus sanguinolentus,"Rallus sanguinolentus Swainson, 1838",0,Rallidae,No extra data
+Neocrex colombiana,"Neocrex colombiana Bangs, 1898",0,Rallidae,No extra data
+Neocrex erythrops,"Neocrex erythrops (P.L.Sclater, 1867)",0,Rallidae,No extra data
+Amaurornis phoenicurus,"Amaurornis phoenicurus (Pennant, 1769)",0,Rallidae,No extra data
+Amaurornis flavirostra,"Amaurornis flavirostra (Swainson, 1837)",0,Rallidae,No extra data
+Limnocorax flavirostra,"Limnocorax flavirostra (Swainson, 1837)",0,Rallidae,No extra data
+Amaurornis olivacea,"Amaurornis olivacea (Meyen, 1834)",0,Rallidae,No extra data
+Amaurornis olivieri,"Amaurornis olivieri (G.Grandidier & Berlioz, 1929)",0,Rallidae,No extra data
+Amaurornis isabellina,"Amaurornis isabellina (Schlegel, 1865)",0,Rallidae,No extra data
+Amaurornis akool,"Amaurornis akool (Sykes, 1832)",0,Rallidae,No extra data
+Rougetius rougetii,"Rougetius rougetii (Guerin-Meneville, 1843)",0,Rallidae,No extra data
+Rallus rougetii,"Rallus rougetii Guerin-Meneville, 1843",0,Rallidae,No extra data
+Edithornis silvestris,"Edithornis silvestris Mayr, 1933",0,Rallidae,No extra data
+Tribonyx mortierii,"Tribonyx mortierii Du Bus de Gisignies, 1840",0,Rallidae,No extra data
+Tribonyx ventralis,"Tribonyx ventralis (Gould, 1837)",0,Rallidae,No extra data
+Porphyriops melanops,"Porphyriops melanops (Vieillot, 1819)",0,Rallidae,No extra data
+Porphyriornis nesiotis,"Porphyriornis nesiotis (P.L.Sclater, 1861)",0,Rallidae,No extra data
+Rallus madagascariensis,"Rallus madagascariensis J.Verreaux, 1833",0,Rallidae,No extra data
+Rallus antarcticus,"Rallus antarcticus King, 1828",0,Rallidae,No extra data
+Rallus limicola,"Rallus limicola Vieillot, 1819",0,Rallidae,No extra data
+Rallus caerulescens,"Rallus caerulescens Gmelin, 1789",0,Rallidae,No extra data
+Rallus aquaticus,"Rallus aquaticus Linnaeus, 1758",0,Rallidae,No extra data
+Rallus wetmorei,"Rallus wetmorei Zimmer & Phelps, 1944",0,Rallidae,No extra data
+Rallus semiplumbeus,"Rallus semiplumbeus P.L.Sclater, 1856",0,Rallidae,No extra data
+Monias benschi,"Monias benschi Oustalet & G.Grandidier, 1903",0,Mesitornithidae,No extra data
+Mesitornis variegatus,"Mesitornis variegatus (I.Geoffroy Saint-Hilaire, 1838)",0,Mesitornithidae,No extra data
+Mesitornis unicolor,"Mesitornis unicolor (Des Murs, 1845)",0,Mesitornithidae,No extra data
+Lissotis hartlaubii,"Lissotis hartlaubii (Heuglin, 1863)",0,Otididae,No extra data
+Eupodotis hartlaubii,"Eupodotis hartlaubii (Heuglin, 1863)",0,Otididae,No extra data
+Lissotis melanogaster,"Lissotis melanogaster (Ruppell, 1835)",0,Otididae,No extra data
+Eupodotis melanogaster,"Eupodotis melanogaster (Ruppell, 1835)",0,Otididae,No extra data
+Houbaropsis bengalensis,"Houbaropsis bengalensis (Gmelin, 1789)",0,Otididae,No extra data
+Eupodotis bengalensis,"Eupodotis bengalensis (Gmelin, 1789)",0,Otididae,No extra data
+Otis tetrax,"Otis tetrax Linnaeus, 1758",0,Otididae,No extra data
+Chlamydotis macqueenii,"Chlamydotis macqueenii (J.E.Gray, 1832)",0,Otididae,No extra data
+Chlamydotis undulata,"Chlamydotis undulata (Jacquin, 1784)",0,Otididae,No extra data
+Sypheotides indicus,"Sypheotides indicus (J.F.Miller, 1782)",0,Otididae,No extra data
+Eupodotis indica,"Eupodotis indica (J.F.Miller, 1782)",0,Otididae,No extra data
+Neotis ludwigii,"Neotis ludwigii (Ruppell, 1837)",0,Otididae,No extra data
+Neotis heuglinii,"Neotis heuglinii (Hartlaub, 1859)",0,Otididae,No extra data
+Neotis denhami,"Neotis denhami (Children & Vigors, 1826)",0,Otididae,No extra data
+Neotis nuba,"Neotis nuba (Cretzschmar, 1826)",0,Otididae,No extra data
+Lophotis gindiana,"Lophotis gindiana (Oustalet, 1881)",0,Otididae,No extra data
+Eupodotis gindiana,"Eupodotis gindiana Oustalet, 1881",0,Otididae,No extra data
+Lophotis ruficrista,"Lophotis ruficrista (A.Smith, 1836)",0,Otididae,No extra data
+Eupodotis ruficrista,"Eupodotis ruficrista (A.Smith, 1836)",0,Otididae,No extra data
+Lophotis savilei,"Lophotis savilei Lynes, 1920",0,Otididae,No extra data
+Eupodotis savilei,"Eupodotis savilei (Lynes, 1920)",0,Otididae,No extra data
+Eupodotis rueppellii,"Eupodotis rueppellii (Wahlberg, 1856)",0,Otididae,No extra data
+Eupodotis senegalensis,"Eupodotis senegalensis (Vieillot, 1820)",0,Otididae,No extra data
+Eupodotis caerulescens,"Eupodotis caerulescens (Vieillot, 1820)",0,Otididae,No extra data
+Eupodotis humilis,"Eupodotis humilis (Blyth, 1856)",0,Otididae,No extra data
+Eupodotis vigorsii,"Eupodotis vigorsii (A.Smith, 1831)",0,Otididae,No extra data
+Ardeotis nigriceps,"Ardeotis nigriceps (Vigors, 1831)",0,Otididae,No extra data
+Ardeotis australis,"Ardeotis australis (J.E.Gray, 1829)",0,Otididae,No extra data
+Ardeotis arabs,"Ardeotis arabs (Linnaeus, 1758)",0,Otididae,No extra data
+Ardeotis kori,"Ardeotis kori (Burchell, 1822)",0,Otididae,No extra data
+Afrotis afraoides,"Afrotis afraoides (A.Smith, 1831)",0,Otididae,No extra data
+Eupodotis afraoides,"Eupodotis afraoides (A.Smith, 1831)",0,Otididae,No extra data
+Afrotis afra,"Afrotis afra (Linnaeus, 1758)",0,Otididae,No extra data
+Eupodotis afra,"Eupodotis afra (Linnaeus, 1758)",0,Otididae,No extra data
+Otis tarda,"Otis tarda Linnaeus, 1758",0,Otididae,No extra data
+Bugeranus carunculatus,"Bugeranus carunculatus (Gmelin, 1789)",0,Gruidae,No extra data
+Grus carunculatus,"Grus carunculatus (Gmelin, 1789)",0,Gruidae,No extra data
+Burgeranus carunculatus,"Burgeranus carunculatus (Gmelin, 1789)",0,Gruidae,No extra data
+Anthropoides virgo,"Anthropoides virgo (Linnaeus, 1758)",0,Gruidae,No extra data
+Anthropoides paradiseus,"Anthropoides paradiseus (A.A.H.Lichtenstein, 1793)",0,Gruidae,No extra data
+Grus americana,"Grus americana (Linnaeus, 1758)",0,Gruidae,No extra data
+Grus vipio,"Grus vipio Pallas, 1811",0,Gruidae,No extra data
+Grus monacha,"Grus monacha Temminck, 1835",0,Gruidae,No extra data
+Grus japonensis,"Grus japonensis (Statius Muller, 1776)",0,Gruidae,No extra data
+Grus antigone,"Grus antigone (Linnaeus, 1758)",0,Gruidae,No extra data
+Grus rubicunda,"Grus rubicunda (Perry, 1810)",0,Gruidae,No extra data
+Grus grus,"Grus grus (Linnaeus, 1758)",0,Gruidae,No extra data
+Grus canadensis,"Grus canadensis (Linnaeus, 1758)",0,Gruidae,No extra data
+Grus nigricollis,"Grus nigricollis Prjevalsky, 1876",0,Gruidae,No extra data
+Grus leucogeranus,"Grus leucogeranus Pallas, 1773",0,Gruidae,No extra data
+Ortyxelos meiffrenii,"Ortyxelos meiffrenii (Vieillot, 1819)",0,Turnicidae,No extra data
+Turnix everetti,"Turnix everetti E.Hartert, 1898",0,Turnicidae,No extra data
+Turnix melanogaster,"Turnix melanogaster (Gould, 1837)",0,Turnicidae,No extra data
+Turnix pyrrhothorax,"Turnix pyrrhothorax (Gould, 1841)",0,Turnicidae,No extra data
+Turnix tanki,"Turnix tanki Blyth, 1843",0,Turnicidae,No extra data
+Turnix hottentottus,"Turnix hottentottus Temminck, 1815",0,Turnicidae,No extra data
+Turnix varius,"Turnix varius (Latham, 1801)",0,Turnicidae,No extra data
+Turnix nigricollis,"Turnix nigricollis (J.F.Gmelin, 1789)",0,Turnicidae,No extra data
+Turnix suscitator,"Turnix suscitator (J.F.Gmelin, 1789)",0,Turnicidae,No extra data
+Turnix powelli,"Turnix powelli Guillemard, 1885",0,Turnicidae,No extra data
+Turnix sylvaticus,"Turnix sylvaticus (Desfontaines, 1789)",0,Turnicidae,No extra data
+Turnix ocellatus,"Turnix ocellatus (Scopoli, 1786)",0,Turnicidae,No extra data
+Turnix velox,"Turnix velox (Gould, 1841)",0,Turnicidae,No extra data
+Turnix maculosus,"Turnix maculosus (Temminck, 1815)",0,Turnicidae,No extra data
+Turnix castanotus,"Turnix castanotus (Gould, 1840)",0,Turnicidae,No extra data
+Turnix worcesteri,"Turnix worcesteri McGregor, 1904",0,Turnicidae,No extra data
+Turnix olivii,"Turnix olivii Robinson, 1900",0,Turnicidae,No extra data
+Jacamaralcyon tridactyla,"Jacamaralcyon tridactyla (Vieillot, 1817)",0,Galbulidae,No extra data
+Brachygalba lugubris,"Brachygalba lugubris (Swainson, 1838)",0,Galbulidae,No extra data
+Brachygalba goeringi,"Brachygalba goeringi P.L.Sclater & Salvin, 1869",0,Galbulidae,No extra data
+Brachygalba albogularis,"Brachygalba albogularis (von Spix, 1824)",0,Galbulidae,No extra data
+Brachygalba salmoni,"Brachygalba salmoni P.L.Sclater & Salvin, 1879",0,Galbulidae,No extra data
+Jacamerops aureus,"Jacamerops aureus (P.L.S.Müller, 1776)",0,Galbulidae,No extra data
+Galbalcyrhynchus purusianus,"Galbalcyrhynchus purusianus Goeldi, 1904",0,Galbulidae,No extra data
+Galbalcyrhynchus leucotis,"Galbalcyrhynchus leucotis Des Murs, 1845",0,Galbulidae,No extra data
+Argicus macrodactylus,"Argicus macrodactylus (von Spix, 1824)",0,Bucconidae,No extra data
+Notharchus swainsoni,"Notharchus swainsoni (G.R.Gray, 1846)",0,Bucconidae,No extra data
+Notharchus tectus,"Notharchus tectus (Boddaert, 1783)",0,Bucconidae,No extra data
+Notharchus macrorhynchos,"Notharchus macrorhynchos (J.F.Gmelin, 1788)",0,Bucconidae,No extra data
+Notharchus ordii,"Notharchus ordii (Cassin, 1851)",0,Bucconidae,No extra data
+Notharchus pectoralis,"Notharchus pectoralis (G.R.Gray, 1846)",0,Bucconidae,No extra data
+Nonnula amaurocephala,"Nonnula amaurocephala Chapman, 1921",0,Bucconidae,No extra data
+Nonnula rubecula,"Nonnula rubecula (von Spix, 1824)",0,Bucconidae,No extra data
+Nonnula ruficapilla,"Nonnula ruficapilla (Tschudi, 1844)",0,Bucconidae,No extra data
+Nonnula brunnea,"Nonnula brunnea P.L.Sclater, 1881",0,Bucconidae,No extra data
+Nonnula frontalis,"Nonnula frontalis (P.L.Sclater, 1854)",0,Bucconidae,No extra data
+Nonnula sclateri,"Nonnula sclateri Hellmayr, 1907",0,Bucconidae,No extra data
+Malacoptila mystacalis,"Malacoptila mystacalis (Lafresnaye, 1850)",0,Bucconidae,No extra data
+Malacoptila fulvogularis,"Malacoptila fulvogularis P.L.Sclater, 1854",0,Bucconidae,No extra data
+Malacoptila panamensis,"Malacoptila panamensis Lafresnaye, 1847",0,Bucconidae,No extra data
+Malacoptila striata,"Malacoptila striata (von Spix, 1824)",0,Bucconidae,No extra data
+Malacoptila fusca,"Malacoptila fusca (J.F.Gmelin, 1788)",0,Bucconidae,No extra data
+Malacoptila rufa,"Malacoptila rufa (von Spix, 1824)",0,Bucconidae,No extra data
+Malacoptila semicincta,"Malacoptila semicincta Todd, 1925",0,Bucconidae,No extra data
+Hypnelus ruficollis,"Hypnelus ruficollis (Wagler, 1829)",0,Bucconidae,No extra data
+Hypnelus bicinctus,"Hypnelus bicinctus (Gould, 1837)",0,Bucconidae,No extra data
+Monasa flavirostris,"Monasa flavirostris Strickland, 1850",0,Bucconidae,No extra data
+Monasa morphoeus,"Monasa morphoeus (Hahn & Küster, 1823)",0,Bucconidae,No extra data
+Monasa nigrifrons,"Monasa nigrifrons (von Spix, 1824)",0,Bucconidae,No extra data
+Monasa atra,"Monasa atra (Boddaert, 1783)",0,Bucconidae,No extra data
+Nystalus chacuru,"Nystalus chacuru (Vieillot, 1816)",0,Bucconidae,No extra data
+Nystalus maculatus,"Nystalus maculatus (J.F.Gmelin, 1788)",0,Bucconidae,No extra data
+Nystalus radiatus,"Nystalus radiatus (P.L.Sclater, 1854)",0,Bucconidae,No extra data
+Nystalus striolatus,"Nystalus striolatus (Pelzeln, 1856)",0,Bucconidae,No extra data
+Hapaloptila castanea,"Hapaloptila castanea (J.Verreaux, 1866)",0,Bucconidae,No extra data
+Micromonacha lanceolata,"Micromonacha lanceolata (Deville, 1849)",0,Bucconidae,No extra data
+Crinifer piscator,"Crinifer piscator (Boddaert, 1783)",0,Musophagidae,No extra data
+Crinifer zonurus,"Crinifer zonurus (Ruppell, 1835)",0,Musophagidae,No extra data
+Musophaga rossae,"Musophaga rossae Gould, 1852",0,Musophagidae,No extra data
+Musophaga violacea,"Musophaga violacea Isert, 1788",0,Musophagidae,No extra data
+Ruwenzorornis johnstoni,"Ruwenzorornis johnstoni (Sharpe, 1901)",0,Musophagidae,No extra data
+Musophaga johnstoni,"Musophaga johnstoni (Sharpe, 1901)",0,Musophagidae,No extra data
+Corythaeola cristata,"Corythaeola cristata (Vieillot, 1816)",0,Musophagidae,No extra data
+Tauraco livingstonii,"Tauraco livingstonii (G.R.Gray, 1864)",0,Musophagidae,No extra data
+Tauraco bannermani,"Tauraco bannermani (Bates, 1923)",0,Musophagidae,No extra data
+Tauraco macrorhynchus,"Tauraco macrorhynchus (Fraser, 1839)",0,Musophagidae,No extra data
+Tauraco hartlaubi,"Tauraco hartlaubi (Fischer & Reichenow, 1884)",0,Musophagidae,No extra data
+Tauraco schalowi,"Tauraco schalowi (Reichenow, 1891)",0,Musophagidae,No extra data
+Tauraco leucotis,"Tauraco leucotis (Ruppell, 1835)",0,Musophagidae,No extra data
+Tauraco leucolophus,"Tauraco leucolophus (Heuglin, 1855)",0,Musophagidae,No extra data
+Tauraco porphyreolophus,"Tauraco porphyreolophus (Vigors, 1831)",0,Musophagidae,No extra data
+Musophaga porphyreolopha,"Musophaga porphyreolopha (Vigors, 1831)",0,Musophagidae,No extra data
+Tauraco persa,"Tauraco persa (Linnaeus, 1758)",0,Musophagidae,No extra data
+Tauraco fischeri,"Tauraco fischeri (Reichenow, 1878)",0,Musophagidae,No extra data
+Tauraco corythaix,"Tauraco corythaix (Wagler, 1827)",0,Musophagidae,No extra data
+Tauraco erythrolophus,"Tauraco erythrolophus (Vieillot, 1819)",0,Musophagidae,No extra data
+Tauraco ruspolii,"Tauraco ruspolii (Salvadori, 1896)",0,Musophagidae,No extra data
+Tauraco schuettii,"Tauraco schuettii (Cabanis, 1879)",0,Musophagidae,No extra data
+Corythaixoides concolor,"Corythaixoides concolor (A.Smith, 1833)",0,Musophagidae,No extra data
+Corythaixoides leucogaster,"Corythaixoides leucogaster (Ruppell, 1842)",0,Musophagidae,No extra data
+Corythaixoides personatus,"Corythaixoides personatus (Ruppell, 1842)",0,Musophagidae,No extra data
+Baryphthengus ruficapillus,"Baryphthengus ruficapillus (Vieillot, 1818)",0,Momotidae,No extra data
+Baryphthengus martii,"Baryphthengus martii (Spix, 1824)",0,Momotidae,No extra data
+Aspatha gularis,"Aspatha gularis (Lafresnaye, 1840)",0,Momotidae,No extra data
+Eumomota superciliosa,"Eumomota superciliosa (Sandbach, 1837)",0,Momotidae,No extra data
+Hylomanes momotula,"Hylomanes momotula M.H.K.Lichtenstein, 1839",0,Momotidae,No extra data
+Momotus momota,"Momotus momota (Linnaeus, 1766)",0,Momotidae,No extra data
+Momotus aequatorialis,"Momotus aequatorialis Gould, 1858",0,Momotidae,No extra data
+Momotus mexicanus,"Momotus mexicanus Swainson, 1827",0,Momotidae,No extra data
+Electron carinatum,"Electron carinatum (Du Bus de Gisignies, 1847)",0,Momotidae,No extra data
+Electron platyrhynchum,"Electron platyrhynchum (Leadbeater, 1829)",0,Momotidae,No extra data
+Uratelornis chimaera,"Uratelornis chimaera Rothschild, 1895",0,Brachypteraciidae,No extra data
+Brachypteracias leptosomus,"Brachypteracias leptosomus (R.Lesson, 1833)",0,Brachypteraciidae,No extra data
+Atelornis crossleyi,"Atelornis crossleyi Sharpe, 1875",0,Brachypteraciidae,No extra data
+Atelornis pittoides,"Atelornis pittoides (Lafresnaye, 1834)",0,Brachypteraciidae,No extra data
+Geobiastes squamiger,"Geobiastes squamiger (Lafresnaye, 1838)",0,Brachypteraciidae,No extra data
+Brachypteracias squamigera,"Brachypteracias squamigera Lafresnaye, 1838",0,Brachypteraciidae,No extra data
+Coracias caudatus,"Coracias caudatus Linnaeus, 1766",0,Coraciidae,No extra data
+Coracias cyanogaster,"Coracias cyanogaster Cuvier, 1816",0,Coraciidae,No extra data
+Coracias garrulus,"Coracias garrulus Linnaeus, 1758",0,Coraciidae,No extra data
+Coracias spatulatus,"Coracias spatulatus Trimen, 1880",0,Coraciidae,No extra data
+Coracias temminckii,"Coracias temminckii (Vieillot, 1819)",0,Coraciidae,No extra data
+Coracias abyssinicus,"Coracias abyssinicus Hermann, 1783",0,Coraciidae,No extra data
+Coracias naevius,"Coracias naevius Daudin, 1800",0,Coraciidae,No extra data
+Coracias noevia,"Coracias noevia Daudin, 1800",0,Coraciidae,No extra data
+Coracias benghalensis,"Coracias benghalensis (Linnaeus, 1758)",0,Coraciidae,No extra data
+Todus multicolor,"Todus multicolor Gould, 1837",0,Todidae,No extra data
+Todus mexicanus,"Todus mexicanus R.Lesson, 1838",0,Todidae,No extra data
+Todus todus,"Todus todus (Linnaeus, 1758)",0,Todidae,No extra data
+Todus angustirostris,"Todus angustirostris Lafresnaye, 1851",0,Todidae,No extra data
+Meropogon forsteni,"Meropogon forsteni Bonaparte, 1850",0,Meropidae,No extra data
+Merops leschenaulti,"Merops leschenaulti Vieillot, 1817",0,Meropidae,No extra data
+Merops nubicus,"Merops nubicus J.F.Gmelin, 1788",0,Meropidae,No extra data
+Merops nubicoides,"Merops nubicoides Des Murs & Pucheran, 1846",0,Meropidae,No extra data
+Merops muelleri,"Merops muelleri (Cassin, 1857)",0,Meropidae,No extra data
+Merops pusillus,"Merops pusillus P.L.S.Müller, 1776",0,Meropidae,No extra data
+Merops revoilii,"Merops revoilii Oustalet, 1882",0,Meropidae,No extra data
+Merops orientalis,"Merops orientalis Latham, 1801",0,Meropidae,No extra data
+Merops persicus,"Merops persicus Pallas, 1773",0,Meropidae,No extra data
+Merops ornatus,"Merops ornatus Latham, 1801",0,Meropidae,No extra data
+Merops gularis,"Merops gularis Shaw, 1798",0,Meropidae,No extra data
+Merops bulocki,"Merops bulocki Vieillot, 1817",0,Meropidae,No extra data
+Merops variegatus,"Merops variegatus Vieillot, 1817",0,Meropidae,No extra data
+Merops hirundineus,"Merops hirundineus A.A.H.Lichtenstein, 1793",0,Meropidae,No extra data
+Merops boehmi,"Merops boehmi Reichenow, 1882",0,Meropidae,No extra data
+Merops superciliosus,"Merops superciliosus Linnaeus, 1766",0,Meropidae,No extra data
+Merops apiaster,"Merops apiaster Linnaeus, 1758",0,Meropidae,No extra data
+Merops malimbicus,"Merops malimbicus Shaw, 1806",0,Meropidae,No extra data
+Merops bullockoides,"Merops bullockoides A.Smith, 1834",0,Meropidae,No extra data
+Merops oreobates,"Merops oreobates (Sharpe, 1892)",0,Meropidae,No extra data
+Merops breweri,"Merops breweri (Cassin, 1859)",0,Meropidae,No extra data
+Merops albicollis,"Merops albicollis Vieillot, 1817",0,Meropidae,No extra data
+Merops viridis,"Merops viridis Linnaeus, 1758",0,Meropidae,No extra data
+Merops philippinus,"Merops philippinus Linnaeus, 1767",0,Meropidae,No extra data
+Nyctyornis athertoni,"Nyctyornis athertoni (Jardine & Selby, 1828)",0,Meropidae,No extra data
+Nyctyornis amictus,"Nyctyornis amictus (Temminck, 1824)",0,Meropidae,No extra data
+Megaceryle maxima,"Megaceryle maxima (Pallas, 1769)",0,Alcedinidae,No extra data
+Megaceryle torquata,"Megaceryle torquata (Linnaeus, 1766)",0,Alcedinidae,No extra data
+Ceryle torquata,"Ceryle torquata (Linnaeus, 1766)",0,Alcedinidae,No extra data
+Megaceryle alcyon,"Megaceryle alcyon (Linnaeus, 1758)",0,Alcedinidae,No extra data
+Ceryle alcyon,"Ceryle alcyon (Linnaeus, 1758)",0,Alcedinidae,No extra data
+Megaceryle lugubris,"Megaceryle lugubris (Temminck, 1834)",0,Alcedinidae,No extra data
+Chloroceryle amazona,"Chloroceryle amazona (Latham, 1790)",0,Alcedinidae,No extra data
+Chloroceryle aenea,"Chloroceryle aenea (Pallas, 1764)",0,Alcedinidae,No extra data
+Chloroceryle americana,"Chloroceryle americana (J.F.Gmelin, 1788)",0,Alcedinidae,No extra data
+Chloroceryle inda,"Chloroceryle inda (Linnaeus, 1766)",0,Alcedinidae,No extra data
+Alcedo meninting,"Alcedo meninting Horsfield, 1821",0,Alcedinidae,No extra data
+Alcedo euryzona,"Alcedo euryzona Temminck, 1830",0,Alcedinidae,No extra data
+Alcedo cristata,"Alcedo cristata Pallas, 1764",0,Alcedinidae,No extra data
+Alcedo thomensis,"Alcedo thomensis (Salvadori, 1902)",0,Alcedinidae,No extra data
+Alcedo leucogaster,"Alcedo leucogaster (Fraser, 1843)",0,Alcedinidae,No extra data
+Alcedo nais,"Alcedo nais Kaup, 1848",0,Alcedinidae,No extra data
+Alcedo cyanopecta,"Alcedo cyanopecta (Lafresnaye, 1840)",0,Alcedinidae,No extra data
+Alcedo hercules,"Alcedo hercules Laubmann, 1917",0,Alcedinidae,No extra data
+Alcedo semitorquata,"Alcedo semitorquata Swainson, 1823",0,Alcedinidae,No extra data
+Alcedo azurea,"Alcedo azurea Latham, 1801",0,Alcedinidae,No extra data
+Alcedo vintsioides,"Alcedo vintsioides Eydoux & Gervais, 1836",0,Alcedinidae,No extra data
+Alcedo coerulescens,"Alcedo coerulescens Vieillot, 1818",0,Alcedinidae,No extra data
+Alcedo atthis,"Alcedo atthis (Linnaeus, 1758)",0,Alcedinidae,No extra data
+Alcedo quadribrachys,"Alcedo quadribrachys Bonaparte, 1850",0,Alcedinidae,No extra data
+Alcedo websteri,"Alcedo websteri (E.Hartert, 1898)",0,Alcedinidae,No extra data
+Alcedo argentata,"Alcedo argentata (Tweeddale, 1877)",0,Alcedinidae,No extra data
+Alcedo pusilla,"Alcedo pusilla (Temminck, 1836)",0,Alcedinidae,No extra data
+Lacedo pulchella,"Lacedo pulchella (Horsfield, 1821)",0,Alcedinidae,No extra data
+Cittura cyanotis,"Cittura cyanotis (Temminck, 1824)",0,Alcedinidae,No extra data
+Tanysiptera danae,"Tanysiptera danae Sharpe, 1880",0,Alcedinidae,No extra data
+Tanysiptera galatea,"Tanysiptera galatea G.R.Gray, 1859",0,Alcedinidae,No extra data
+Tanysiptera nympha,"Tanysiptera nympha G.R.Gray, 1840",0,Alcedinidae,No extra data
+Tanysiptera riedelii,"Tanysiptera riedelii J.Verreaux, 1866",0,Alcedinidae,No extra data
+Tanysiptera hydrocharis,"Tanysiptera hydrocharis G.R.Gray, 1858",0,Alcedinidae,No extra data
+Tanysiptera sylvia,"Tanysiptera sylvia Gould, 1850",0,Alcedinidae,No extra data
+Tanysiptera carolinae,"Tanysiptera carolinae Schlegel, 1871",0,Alcedinidae,No extra data
+Tanysiptera ellioti,"Tanysiptera ellioti Sharpe, 1870",0,Alcedinidae,No extra data
+Dacelo gaudichaud,"Dacelo gaudichaud Gaimard, 1823",0,Alcedinidae,No extra data
+Dacelo novaeguineae,"Dacelo novaeguineae (Hermann, 1783)",0,Alcedinidae,No extra data
+Dacelo tyro,"Dacelo tyro G.R.Gray, 1858",0,Alcedinidae,No extra data
+Dacelo leachii,"Dacelo leachii Vigors & Horsfield, 1827",0,Alcedinidae,No extra data
+Actenoides monachus,"Actenoides monachus (Bonaparte, 1850)",0,Alcedinidae,No extra data
+Actenoides concretus,"Actenoides concretus (Temminck, 1825)",0,Alcedinidae,No extra data
+Actenoides hombroni,"Actenoides hombroni Bonaparte, 1850",0,Alcedinidae,No extra data
+Actenoides bougainvillei,"Actenoides bougainvillei (Rothschild, 1904)",0,Alcedinidae,No extra data
+Actenoides princeps,"Actenoides princeps (Reichenbach, 1851)",0,Alcedinidae,No extra data
+Actenoides lindsayi,"Actenoides lindsayi (Vigors, 1831)",0,Alcedinidae,No extra data
+Ceryle rudis,"Ceryle rudis (Linnaeus, 1758)",0,Alcedinidae,No extra data
+Todiramphus nigrocyaneus,"Todiramphus nigrocyaneus (Wallace, 1862)",0,Alcedinidae,No extra data
+Todiramphus diops,"Todiramphus diops (Temminck, 1824)",0,Alcedinidae,No extra data
+Todiramphus albonotatus,"Todiramphus albonotatus (E.P.Ramsay, 1884)",0,Alcedinidae,No extra data
+Todiramphus funebris,"Todiramphus funebris Bonaparte, 1850",0,Alcedinidae,No extra data
+Todiramphus enigma,"Todiramphus enigma (E.Hartert, 1904)",0,Alcedinidae,No extra data
+Todiramphus miyakoensis,"Todiramphus miyakoensis (Nagamichi Kuroda, 1919)",0,Alcedinidae,No extra data
+Todiramphus australasia,"Todiramphus australasia (Vieillot, 1818)",0,Alcedinidae,No extra data
+Todiramphus gambieri,"Todiramphus gambieri (Oustalet, 1895)",0,Alcedinidae,No extra data
+Todiramphus winchelli,"Todiramphus winchelli (Sharpe, 1877)",0,Alcedinidae,No extra data
+Todiramphus lazuli,"Todiramphus lazuli (Temminck, 1830)",0,Alcedinidae,No extra data
+Todiramphus leucopygius,"Todiramphus leucopygius (J.Verreaux, 1858)",0,Alcedinidae,No extra data
+Todiramphus saurophagus,"Todiramphus saurophagus (Gould, 1843)",0,Alcedinidae,No extra data
+Todiramphus tutus,"Todiramphus tutus (J.F.Gmelin, 1788)",0,Alcedinidae,No extra data
+Todiramphus pyrrhopygius,"Todiramphus pyrrhopygius (Gould, 1841)",0,Alcedinidae,No extra data
+Todiramphus macleayii,"Todiramphus macleayii (Jardine & Selby, 1830)",0,Alcedinidae,No extra data
+Todiramphus farquhari,"Todiramphus farquhari (Sharpe, 1899)",0,Alcedinidae,No extra data
+Todiramphus chloris,"Todiramphus chloris (Boddaert, 1783)",0,Alcedinidae,No extra data
+Todiramphus cinnamominus,"Todiramphus cinnamominus (Swainson, 1821)",0,Alcedinidae,No extra data
+Todiramphus sanctus,"Todiramphus sanctus (Vigors & Horsfield, 1827)",0,Alcedinidae,No extra data
+Todiramphus veneratus,"Todiramphus veneratus (J.F.Gmelin, 1788)",0,Alcedinidae,No extra data
+Todiramphus godeffroyi,"Todiramphus godeffroyi (Finsch, 1877)",0,Alcedinidae,No extra data
+Ispidina picta,"Ispidina picta (Boddaert, 1783)",0,Alcedinidae,No extra data
+Ispidina madagascariensis,"Ispidina madagascariensis (Linnaeus, 1766)",0,Alcedinidae,No extra data
+Ispidina lecontei,"Ispidina lecontei Cassin, 1856",0,Alcedinidae,No extra data
+Clytoceyx rex,"Clytoceyx rex Sharpe, 1880",0,Alcedinidae,No extra data
+Caridonax fulgidus,"Caridonax fulgidus (Gould, 1857)",0,Alcedinidae,No extra data
+Syma megarhyncha,"Syma megarhyncha Salvadori, 1896",0,Alcedinidae,No extra data
+Rhyticeros everetti,"Rhyticeros everetti Rothschild, 1898",0,Bucerotidae,No extra data
+Rhyticeros subruficollis,"Rhyticeros subruficollis (Blyth, 1843)",0,Bucerotidae,No extra data
+Rhyticeros plicatus,"Rhyticeros plicatus (J.R.Forster, 1781)",0,Bucerotidae,No extra data
+Rhyticeros undulatus,"Rhyticeros undulatus (Shaw, 1812)",0,Bucerotidae,No extra data
+Ocyceros birostris,"Ocyceros birostris (Scopoli, 1786)",0,Bucerotidae,No extra data
+Ocyceros griseus,"Ocyceros griseus (Latham, 1790)",0,Bucerotidae,No extra data
+Ocyceros gingalensis,"Ocyceros gingalensis (Shaw, 1812)",0,Bucerotidae,No extra data
+Anorrhinus tickelli,"Anorrhinus tickelli (Blyth, 1855)",0,Bucerotidae,No extra data
+Anorrhinus galeritus,"Anorrhinus galeritus (Temminck, 1831)",0,Bucerotidae,No extra data
+Ceratogymna subcylindricus,"Ceratogymna subcylindricus (P.L.Sclater, 1871)",0,Bucerotidae,No extra data
+Ceratogymna fistulator,"Ceratogymna fistulator (Cassin, 1850)",0,Bucerotidae,No extra data
+Ceratogymna albotibialis,"Ceratogymna albotibialis (Cabanis & Reichenow, 1877)",0,Bucerotidae,No extra data
+Ceratogymna cylindricus,"Ceratogymna cylindricus (Temminck, 1831)",0,Bucerotidae,No extra data
+Ceratogymna brevis,"Ceratogymna brevis (Friedmann, 1929)",0,Bucerotidae,No extra data
+Ceratogymna bucinator,"Ceratogymna bucinator (Temminck, 1824)",0,Bucerotidae,No extra data
+Rhinoplax vigil,"Rhinoplax vigil (Pennant, 1781)",0,Bucerotidae,No extra data
+Buceros vigil,"Buceros vigil Forster, 1781",0,Bucerotidae,No extra data
+Tockus monteiri,"Tockus monteiri Hartlaub, 1865",0,Bucerotidae,No extra data
+Tockus leucomelas,"Tockus leucomelas (M.H.K.Lichtenstein, 1842)",0,Bucerotidae,No extra data
+Tockus bradfieldi,"Tockus bradfieldi (Roberts, 1930)",0,Bucerotidae,No extra data
+Tockus nasutus,"Tockus nasutus (Linnaeus, 1766)",0,Bucerotidae,No extra data
+Tockus hartlaubi,"Tockus hartlaubi Gould, 1861",0,Bucerotidae,No extra data
+Tockus erythrorhynchus,"Tockus erythrorhynchus (Temminck, 1823)",0,Bucerotidae,No extra data
+Tockus deckeni,"Tockus deckeni (Cabanis, 1868)",0,Bucerotidae,No extra data
+Tockus fasciatus,"Tockus fasciatus (Shaw, 1812)",0,Bucerotidae,No extra data
+Tockus pallidirostris,"Tockus pallidirostris (Hartlaub & Finsch, 1870)",0,Bucerotidae,No extra data
+Tockus camurus,"Tockus camurus Cassin, 1857",0,Bucerotidae,No extra data
+Tockus flavirostris,"Tockus flavirostris (Rüppell, 1835)",0,Bucerotidae,No extra data
+Tockus jacksoni,"Tockus jacksoni (Ogilvie-Grant, 1891)",0,Bucerotidae,No extra data
+Tockus alboterminatus,"Tockus alboterminatus (Büttikofer, 1889)",0,Bucerotidae,No extra data
+Tockus hemprichii,"Tockus hemprichii (Ehrenberg, 1833)",0,Bucerotidae,No extra data
+Anthracoceros marchei,"Anthracoceros marchei Oustalet, 1885",0,Bucerotidae,No extra data
+Anthracoceros coronatus,"Anthracoceros coronatus (Boddaert, 1783)",0,Bucerotidae,No extra data
+Anthracoceros malayanus,"Anthracoceros malayanus (Raffles, 1822)",0,Bucerotidae,No extra data
+Anthracoceros montani,"Anthracoceros montani (Oustalet, 1880)",0,Bucerotidae,No extra data
+Anthracoceros albirostris,"Anthracoceros albirostris (Shaw, 1808)",0,Bucerotidae,No extra data
+Tropicranus albocristatus,"Tropicranus albocristatus (Cassin, 1848)",0,Bucerotidae,No extra data
+Tockus albocristatus,"Tockus albocristatus (Cassin, 1848)",0,Bucerotidae,No extra data
+Ceratogymna elata,"Ceratogymna elata (Temminck, 1831)",0,Bucerotidae,No extra data
+Ceratogymna atrata,"Ceratogymna atrata (Temminck, 1835)",0,Bucerotidae,No extra data
+Buceros rhinoceros,"Buceros rhinoceros Linnaeus, 1758",0,Bucerotidae,No extra data
+Buceros hydrocorax,"Buceros hydrocorax Linnaeus, 1766",0,Bucerotidae,No extra data
+Buceros bicornis,"Buceros bicornis Linnaeus, 1758",0,Bucerotidae,No extra data
+Penelopides affinis,"Penelopides affinis Tweeddale, 1877",0,Bucerotidae,No extra data
+Penelopides samarensis,"Penelopides samarensis Steere, 1890",0,Bucerotidae,No extra data
+Penelopides mindorensis,"Penelopides mindorensis Steere, 1890",0,Bucerotidae,No extra data
+Penelopides manillae,"Penelopides manillae (Boddaert, 1783)",0,Bucerotidae,No extra data
+Penelopides exarhatus,"Penelopides exarhatus (Temminck, 1823)",0,Bucerotidae,No extra data
+Penelopides panini,"Penelopides panini (Boddaert, 1783)",0,Bucerotidae,No extra data
+Berenicornis comatus,"Berenicornis comatus (Raffles, 1822)",0,Bucerotidae,No extra data
+Bucorvus leadbeateri,"Bucorvus leadbeateri (Vigors, 1825)",0,Bucorvidae,No extra data
+Bucorvus abyssinicus,"Bucorvus abyssinicus (Boddaert, 1783)",0,Bucorvidae,No extra data
+Hylonympha macrocerca,"Hylonympha macrocerca Gould, 1873",0,Trochilidae,No extra data
+Eulidia yarrellii,"Eulidia yarrellii (Bourcier, 1847)",0,Trochilidae,No extra data
+Stephanoxis lalandi,"Stephanoxis lalandi (Vieillot, 1818)",0,Trochilidae,No extra data
+Ramphomicron microrhynchum,"Ramphomicron microrhynchum (Boissonneau, 1840)",0,Trochilidae,No extra data
+Ramphomicron dorsale,"Ramphomicron dorsale Salvin & Godman, 1880",0,Trochilidae,No extra data
+Chlorostilbon canivetii,"Chlorostilbon canivetii (R.Lesson, 1832)",0,Trochilidae,No extra data
+Chlorostilbon gibsoni,"Chlorostilbon gibsoni (Fraser, 1840)",0,Trochilidae,No extra data
+Chlorostilbon ricordii,"Chlorostilbon ricordii (Gervais, 1835)",0,Trochilidae,No extra data
+Chlorostilbon russatus,"Chlorostilbon russatus (Salvin & Godman, 1881)",0,Trochilidae,No extra data
+Chlorostilbon poortmani,"Chlorostilbon poortmani (Bourcier, 1843)",0,Trochilidae,No extra data
+Chlorostilbon stenurus,"Chlorostilbon stenurus (Cabanis & Heine, 1860)",0,Trochilidae,No extra data
+Chlorostilbon maugaeus,"Chlorostilbon maugaeus (Audebert & Vieillot, 1801)",0,Trochilidae,No extra data
+Chlorostilbon auriceps,"Chlorostilbon auriceps (Gould, 1852)",0,Trochilidae,No extra data
+Chlorostilbon assimilis,"Chlorostilbon assimilis Lawrence, 1861",0,Trochilidae,No extra data
+Chlorostilbon olivaresi,"Chlorostilbon olivaresi Stiles, 1996",0,Trochilidae,No extra data
+Chlorostilbon mellisugus,"Chlorostilbon mellisugus (Linnaeus, 1758)",0,Trochilidae,No extra data
+Chlorostilbon bracei,"Chlorostilbon bracei (Lawrence, 1877)",0,Trochilidae,No extra data
+Chlorostilbon notatus,"Chlorostilbon notatus (G.C.Reich, 1793)",0,Trochilidae,No extra data
+Chlorostilbon elegans,"Chlorostilbon elegans (Gould, 1860)",0,Trochilidae,No extra data
+Chlorostilbon forficatus,"Chlorostilbon forficatus Ridgway, 1885",0,Trochilidae,No extra data
+Chlorostilbon melanorhynchus,"Chlorostilbon melanorhynchus Gould, 1860",0,Trochilidae,No extra data
+Chlorostilbon aureoventris,"Chlorostilbon aureoventris (Orbigny & Lafresnaye, 1838)",0,Trochilidae,No extra data
+Chlorostilbon swainsonii,"Chlorostilbon swainsonii (R.Lesson, 1829)",0,Trochilidae,No extra data
+Chlorostilbon alice,"Chlorostilbon alice (Bourcier & Mulsant, 1848)",0,Trochilidae,No extra data
+Chlorostilbon pumilus,"Chlorostilbon pumilus Gould, 1872",0,Trochilidae,No extra data
+Eugenes fulgens,"Eugenes fulgens (Swainson, 1827)",0,Trochilidae,No extra data
+Campylopterus duidae,"Campylopterus duidae Chapman, 1929",0,Trochilidae,No extra data
+Campylopterus largipennis,"Campylopterus largipennis (Boddaert, 1783)",0,Trochilidae,No extra data
+Campylopterus curvipennis,"Campylopterus curvipennis (Deppe, 1830)",0,Trochilidae,No extra data
+Campylopterus falcatus,"Campylopterus falcatus (Swainson, 1821)",0,Trochilidae,No extra data
+Campylopterus hyperythrus,"Campylopterus hyperythrus Cabanis, 1849",0,Trochilidae,No extra data
+Campylopterus villaviscensio,"Campylopterus villaviscensio (Bourcier, 1851)",0,Trochilidae,No extra data
+Campylopterus ensipennis,"Campylopterus ensipennis (Swainson, 1822)",0,Trochilidae,No extra data
+Campylopterus rufus,"Campylopterus rufus R.Lesson, 1840",0,Trochilidae,No extra data
+Campylopterus excellens,"Campylopterus excellens (Wetmore, 1941)",0,Trochilidae,No extra data
+Campylopterus phainopeplus,"Campylopterus phainopeplus Salvin & Godman, 1879",0,Trochilidae,No extra data
+Campylopterus hemileucurus,"Campylopterus hemileucurus (Deppe, 1830)",0,Trochilidae,No extra data
+Stellula calliope,"Stellula calliope (Gould, 1847)",0,Trochilidae,No extra data
+Myrtis fanny,"Myrtis fanny (R.Lesson, 1838)",0,Trochilidae,No extra data
+Abeillia abeillei,"Abeillia abeillei (R.Lesson & Delattre, 1839)",0,Trochilidae,No extra data
+Anopetia gounellei,"Anopetia gounellei (Boucard, 1891)",0,Trochilidae,No extra data
+Phaethornis gounellei,"Phaethornis gounellei Boucard, 1891",0,Trochilidae,No extra data
+Chrysuronia oenone,"Chrysuronia oenone (R.Lesson, 1832)",0,Trochilidae,No extra data
+Polyonymus caroli,"Polyonymus caroli (Bourcier, 1847)",0,Trochilidae,No extra data
+Pterophanes cyanopterus,"Pterophanes cyanopterus (Fraser, 1840)",0,Trochilidae,No extra data
+Panterpe insignis,"Panterpe insignis Cabanis & Heine, 1860",0,Trochilidae,No extra data
+Adelomyia melanogenys,"Adelomyia melanogenys (Fraser, 1840)",0,Trochilidae,No extra data
+Phaeochroa cuvierii,"Phaeochroa cuvierii (Delattre & Bourcier, 1846)",0,Trochilidae,No extra data
+Campylopterus cuvierii,"Campylopterus cuvierii (Delattre & Bourcier, 1846)",0,Trochilidae,No extra data
+Florisuga fusca,"Florisuga fusca (Vieillot, 1817)",0,Trochilidae,No extra data
+Melanotrochilus fuscus,"Melanotrochilus fuscus (Vieillot, 1817)",0,Trochilidae,No extra data
+Florisuga mellivora,"Florisuga mellivora (Linnaeus, 1758)",0,Trochilidae,No extra data
+Schistes geoffroyi,"Schistes geoffroyi (Bourcier, 1843)",0,Trochilidae,No extra data
+Augastes geoffroyi,"Augastes geoffroyi (Bourcier, 1843)",0,Trochilidae,No extra data
+Ramphodon naevius,"Ramphodon naevius (Dumont, 1818)",0,Trochilidae,No extra data
+Heliothryx barroti,"Heliothryx barroti (Bourcier, 1843)",0,Trochilidae,No extra data
+Heliothryx auritus,"Heliothryx auritus (J.F.Gmelin, 1788)",0,Trochilidae,No extra data
+Klais guimeti,"Klais guimeti (Bourcier, 1843)",0,Trochilidae,No extra data
+Leucippus chlorocercus,"Leucippus chlorocercus Gould, 1866",0,Trochilidae,No extra data
+Leucippus baeri,"Leucippus baeri Simon, 1901",0,Trochilidae,No extra data
+Leucippus fallax,"Leucippus fallax (Bourcier, 1843)",0,Trochilidae,No extra data
+Leucippus taczanowskii,"Leucippus taczanowskii (P.L.Sclater, 1879)",0,Trochilidae,No extra data
+Cyanophaia bicolor,"Cyanophaia bicolor (J.F.Gmelin, 1788)",0,Trochilidae,No extra data
+Lafresnaya lafresnayi,"Lafresnaya lafresnayi (Boissonneau, 1840)",0,Trochilidae,No extra data
+Phlogophilus hemileucurus,"Phlogophilus hemileucurus Gould, 1860",0,Trochilidae,No extra data
+Phlogophilus harterti,"Phlogophilus harterti von Berlepsch & Stolzmann, 1901",0,Trochilidae,No extra data
+Atthis ellioti,"Atthis ellioti Ridgway, 1878",0,Trochilidae,No extra data
+Atthis heloisa,"Atthis heloisa (R.Lesson & Delattre, 1839)",0,Trochilidae,No extra data
+Augastes scutatus,"Augastes scutatus (Temminck, 1824)",0,Trochilidae,No extra data
+Augastes lumachella,"Augastes lumachella (R.Lesson, 1839)",0,Trochilidae,No extra data
+Urosticte benjamini,"Urosticte benjamini (Bourcier, 1851)",0,Trochilidae,No extra data
+Urosticte ruficrissa,"Urosticte ruficrissa Lawrence, 1864",0,Trochilidae,No extra data
+Orthorhyncus cristatus,"Orthorhyncus cristatus (Linnaeus, 1758)",0,Trochilidae,No extra data
+Leucochloris albicollis,"Leucochloris albicollis (Vieillot, 1818)",0,Trochilidae,No extra data
+Aglaeactis castelnaudii,"Aglaeactis castelnaudii (Bourcier & Mulsant, 1848)",0,Trochilidae,No extra data
+Aglaeactis aliciae,"Aglaeactis aliciae Salvin, 1896",0,Trochilidae,No extra data
+Aglaeactis cupripennis,"Aglaeactis cupripennis (Bourcier, 1843)",0,Trochilidae,No extra data
+Aglaeactis pamela,"Aglaeactis pamela (d'Orbigny, 1838)",0,Trochilidae,No extra data
+Taphrospilus hypostictus,"Taphrospilus hypostictus (Gould, 1862)",0,Trochilidae,No extra data
+Lamprolaima rhami,"Lamprolaima rhami (R.Lesson, 1839)",0,Trochilidae,No extra data
+Eupherusa nigriventris,"Eupherusa nigriventris Lawrence, 1868",0,Trochilidae,No extra data
+Eupherusa eximia,"Eupherusa eximia (Delattre, 1843)",0,Trochilidae,No extra data
+Eupherusa poliocerca,"Eupherusa poliocerca D.G.Elliot, 1871",0,Trochilidae,No extra data
+Eupherusa cyanophrys,"Eupherusa cyanophrys J.S.Rowley & Orr, 1964",0,Trochilidae,No extra data
+Androdon aequatorialis,"Androdon aequatorialis Gould, 1863",0,Trochilidae,No extra data
+Oreonympha nobilis,"Oreonympha nobilis Gould, 1869",0,Trochilidae,No extra data
+Haplophaedia aureliae,"Haplophaedia aureliae (Bourcier & Mulsant, 1846)",0,Trochilidae,No extra data
+Haplophaedia assimilis,"Haplophaedia assimilis (D.G.Elliot, 1876)",0,Trochilidae,No extra data
+Haplophaedia lugens,"Haplophaedia lugens (Gould, 1852)",0,Trochilidae,No extra data
+Chrysolampis mosquitus,"Chrysolampis mosquitus (Linnaeus, 1758)",0,Trochilidae,No extra data
+Ocreatus underwoodii,"Ocreatus underwoodii (R.Lesson, 1832)",0,Trochilidae,No extra data
+Aphantochroa cirrochloris,"Aphantochroa cirrochloris (Vieillot, 1818)",0,Trochilidae,No extra data
+Calliphlox mitchellii,"Calliphlox mitchellii (Bourcier, 1847)",0,Trochilidae,No extra data
+Calliphlox evelynae,"Calliphlox evelynae (Bourcier, 1847)",0,Trochilidae,No extra data
+Calliphlox amethystina,"Calliphlox amethystina (Boddaert, 1783)",0,Trochilidae,No extra data
+Calliphlox bryantae,"Calliphlox bryantae (Lawrence, 1867)",0,Trochilidae,No extra data
+Eutoxeres condamini,"Eutoxeres condamini (Bourcier, 1851)",0,Trochilidae,No extra data
+Eutoxeres aquila,"Eutoxeres aquila (Bourcier, 1847)",0,Trochilidae,No extra data
+Aglaiocercus coelestis,"Aglaiocercus coelestis (Gould, 1861)",0,Trochilidae,No extra data
+Aglaiocercus kingii,"Aglaiocercus kingii (R.Lesson, 1832)",0,Trochilidae,No extra data
+Eulampis jugularis,"Eulampis jugularis (Linnaeus, 1766)",0,Trochilidae,No extra data
+Eulampis holosericeus,"Eulampis holosericeus (Linnaeus, 1758)",0,Trochilidae,No extra data
+Amazilia viridicauda,"Amazilia viridicauda (von Berlepsch, 1883)",0,Trochilidae,No extra data
+Amazilia tobaci,"Amazilia tobaci (J.F.Gmelin, 1788)",0,Trochilidae,No extra data
+Amazilia rutila,"Amazilia rutila (Delattre, 1843)",0,Trochilidae,No extra data
+Amazilia fimbriata,"Amazilia fimbriata (J.F.Gmelin, 1788)",0,Trochilidae,No extra data
+Amazilia rosenbergi,"Amazilia rosenbergi (Boucard, 1895)",0,Trochilidae,No extra data
+Amazilia cupreicauda,"Amazilia cupreicauda Salvin & Godman, 1884",0,Trochilidae,No extra data
+Amazilia leucogaster,"Amazilia leucogaster (J.F.Gmelin, 1788)",0,Trochilidae,No extra data
+Amazilia cyanifrons,"Amazilia cyanifrons (Bourcier, 1843)",0,Trochilidae,No extra data
+Amazilia tzacatl,"Amazilia tzacatl (de la Llave, 1833)",0,Trochilidae,No extra data
+Amazilia candida,"Amazilia candida (Bourcier & Mulsant, 1846)",0,Trochilidae,No extra data
+Amazilia edward,"Amazilia edward (Delattre & Bourcier, 1846)",0,Trochilidae,No extra data
+Amazilia luciae,"Amazilia luciae (Lawrence, 1868)",0,Trochilidae,No extra data
+Amazilia amazilia,"Amazilia amazilia (R.Lesson & Garnot, 1827)",0,Trochilidae,No extra data
+Amazilia violiceps,"Amazilia violiceps (Gould, 1859)",0,Trochilidae,No extra data
+Amazilia lactea,"Amazilia lactea (R.Lesson, 1832)",0,Trochilidae,No extra data
+Amazilia rondoniae,"Amazilia rondoniae Ruschi, 1982",0,Trochilidae,No extra data
+Amazilia decora,"Amazilia decora (Salvin, 1891)",0,Trochilidae,No extra data
+Amazilia alfaroana,"Amazilia alfaroana Underwood, 1896",0,Trochilidae,No extra data
+Amazilia franciae,"Amazilia franciae (Bourcier & Mulsant, 1846)",0,Trochilidae,No extra data
+Amazilia yucatanensis,"Amazilia yucatanensis (S.Cabot, 1845)",0,Trochilidae,No extra data
+Amazilia chionogaster,"Amazilia chionogaster (Tschudi, 1846)",0,Trochilidae,No extra data
+Amazilia viridigaster,"Amazilia viridigaster (Bourcier, 1843)",0,Trochilidae,No extra data
+Amazilia versicolor,"Amazilia versicolor (Vieillot, 1818)",0,Trochilidae,No extra data
+Amazilia castaneiventris,"Amazilia castaneiventris (Gould, 1856)",0,Trochilidae,No extra data
+Amazilia beryllina,"Amazilia beryllina (Deppe, 1830)",0,Trochilidae,No extra data
+Amazilia viridifrons,"Amazilia viridifrons (D.G.Elliot, 1871)",0,Trochilidae,No extra data
+Amazilia alticola,"Amazilia alticola Gould, 1860",0,Trochilidae,No extra data
+Amazilia amabilis,"Amazilia amabilis (Gould, 1853)",0,Trochilidae,No extra data
+Amazilia brevirostris,"Amazilia brevirostris (R.Lesson, 1829)",0,Trochilidae,No extra data
+Amazilia chionopectus,"Amazilia chionopectus (Gould, 1859)",0,Trochilidae,No extra data
+Amazilia boucardi,"Amazilia boucardi (Mulsant, 1877)",0,Trochilidae,No extra data
+Amazilia cyanocephala,"Amazilia cyanocephala (R.Lesson, 1830)",0,Trochilidae,No extra data
+Amazilia verticalis,"Amazilia verticalis (Deppe, 1830)",0,Trochilidae,No extra data
+Amazilia cyanura,"Amazilia cyanura Gould, 1859",0,Trochilidae,No extra data
+Thalurania watertonii,"Thalurania watertonii (Bourcier, 1847)",0,Trochilidae,No extra data
+Thalurania colombica,"Thalurania colombica (Bourcier, 1843)",0,Trochilidae,No extra data
+Thalurania furcata,"Thalurania furcata (J.F.Gmelin, 1788)",0,Trochilidae,No extra data
+Thalurania ridgwayi,"Thalurania ridgwayi Nelson, 1900",0,Trochilidae,No extra data
+Thalurania glaucopis,"Thalurania glaucopis (J.F.Gmelin, 1788)",0,Trochilidae,No extra data
+Thalurania fannyi,"Thalurania fannyi (Delattre & Bourcier, 1846)",0,Trochilidae,No extra data
+Lepidopyga goudoti,"Lepidopyga goudoti (Bourcier, 1843)",0,Trochilidae,No extra data
+Lepidopyga lilliae,"Lepidopyga lilliae Stone, 1917",0,Trochilidae,No extra data
+Lepidopyga coeruleogularis,"Lepidopyga coeruleogularis (Gould, 1851)",0,Trochilidae,No extra data
+Calothorax pulcher,"Calothorax pulcher Gould, 1859",0,Trochilidae,No extra data
+Calothorax lucifer,"Calothorax lucifer (Swainson, 1827)",0,Trochilidae,No extra data
+Phaethornis longuemareus,"Phaethornis longuemareus (R.Lesson, 1832)",0,Trochilidae,No extra data
+Phaethornis superciliosus,"Phaethornis superciliosus (Linnaeus, 1766)",0,Trochilidae,No extra data
+Phaethornis bourcieri,"Phaethornis bourcieri (R.Lesson, 1832)",0,Trochilidae,No extra data
+Phaethornis squalidus,"Phaethornis squalidus (Temminck, 1822)",0,Trochilidae,No extra data
+Phaethornis rupurumii,"Phaethornis rupurumii Boucard, 1892",0,Trochilidae,No extra data
+Phaethornis subochraceus,"Phaethornis subochraceus Todd, 1915",0,Trochilidae,No extra data
+Phaethornis griseogularis,"Phaethornis griseogularis Gould, 1851",0,Trochilidae,No extra data
+Phaethornis yaruqui,"Phaethornis yaruqui (Bourcier, 1851)",0,Trochilidae,No extra data
+Phaethornis syrmatophorus,"Phaethornis syrmatophorus Gould, 1852",0,Trochilidae,No extra data
+Phaethornis eurynome,"Phaethornis eurynome (R.Lesson, 1832)",0,Trochilidae,No extra data
+Phaethornis anthophilus,"Phaethornis anthophilus (Bourcier, 1843)",0,Trochilidae,No extra data
+Phaethornis philippii,"Phaethornis philippii (Bourcier, 1847)",0,Trochilidae,No extra data
+Phaethornis pretrei,"Phaethornis pretrei (R.Lesson & Delattre, 1839)",0,Trochilidae,No extra data
+Phaethornis striigularis,"Phaethornis striigularis Gould, 1854",0,Trochilidae,No extra data
+Phaethornis stuarti,"Phaethornis stuarti Hartert, 1897",0,Trochilidae,No extra data
+Phaethornis idaliae,"Phaethornis idaliae (Bourcier & Mulsant, 1856)",0,Trochilidae,No extra data
+Phaethornis guy,"Phaethornis guy (R.Lesson, 1833)",0,Trochilidae,No extra data
+Phaethornis malaris,"Phaethornis malaris (Nordmann, 1835)",0,Trochilidae,No extra data
+Phaethornis hispidus,"Phaethornis hispidus (Gould, 1846)",0,Trochilidae,No extra data
+Phaethornis koepckeae,"Phaethornis koepckeae Weske & Terborgh, 1977",0,Trochilidae,No extra data
+Phaethornis longirostris,"Phaethornis longirostris (Delattre, 1843)",0,Trochilidae,No extra data
+Phaethornis augusti,"Phaethornis augusti (Bourcier, 1847)",0,Trochilidae,No extra data
+Phaethornis atrimentalis,"Phaethornis atrimentalis Lawrence, 1858",0,Trochilidae,No extra data
+Phaethornis nattereri,"Phaethornis nattereri von Berlepsch, 1887",0,Trochilidae,No extra data
+Phaethornis ruber,"Phaethornis ruber (Linnaeus, 1758)",0,Trochilidae,No extra data
+Taphrolesbia griseiventris,"Taphrolesbia griseiventris (Taczanowski, 1883)",0,Trochilidae,No extra data
+Eupetomena macroura,"Eupetomena macroura (J.F.Gmelin, 1788)",0,Trochilidae,No extra data
+Calypte anna,"Calypte anna (R.Lesson, 1829)",0,Trochilidae,No extra data
+Calypte costae,"Calypte costae (Bourcier, 1839)",0,Trochilidae,No extra data
+Oreotrochilus melanogaster,"Oreotrochilus melanogaster Gould, 1847",0,Trochilidae,No extra data
+Oreotrochilus leucopleurus,"Oreotrochilus leucopleurus Gould, 1847",0,Trochilidae,No extra data
+Oreotrochilus chimborazo,"Oreotrochilus chimborazo (Delattre & Bourcier, 1846)",0,Trochilidae,No extra data
+Oreotrochilus adela,"Oreotrochilus adela (d'Orbigny, 1838)",0,Trochilidae,No extra data
+Oreotrochilus estella,"Oreotrochilus estella (d'Orbigny, 1838)",0,Trochilidae,No extra data
+Microstilbon burmeisteri,"Microstilbon burmeisteri (P.L.Sclater, 1888)",0,Trochilidae,No extra data
+Opisthoprora euryptera,"Opisthoprora euryptera (Loddiges, 1832)",0,Trochilidae,No extra data
+Heliangelus micraster,"Heliangelus micraster Gould, 1872",0,Trochilidae,No extra data
+Heliangelus viola,"Heliangelus viola Gould, 1853",0,Trochilidae,No extra data
+Heliangelus amethysticollis,"Heliangelus amethysticollis (d'Orbigny & Lafresnaye, 1838)",0,Trochilidae,No extra data
+Heliangelus spencei,"Heliangelus spencei (Bourcier, 1847)",0,Trochilidae,No extra data
+Heliangelus zusii,"Heliangelus zusii G.R.Graves, 1993",0,Trochilidae,No extra data
+Heliangelus exortis,"Heliangelus exortis (Fraser, 1840)",0,Trochilidae,No extra data
+Heliangelus regalis,"Heliangelus regalis Fitzpatrick, Willard & Terborgh, 1979",0,Trochilidae,No extra data
+Heliangelus strophianus,"Heliangelus strophianus (Gould, 1846)",0,Trochilidae,No extra data
+Heliangelus mavors,"Heliangelus mavors Gould, 1848",0,Trochilidae,No extra data
+Anthracothorax mango,"Anthracothorax mango (Linnaeus, 1758)",0,Trochilidae,No extra data
+Anthracothorax veraguensis,"Anthracothorax veraguensis Reichenbach, 1855",0,Trochilidae,No extra data
+Anthracothorax dominicus,"Anthracothorax dominicus (Linnaeus, 1766)",0,Trochilidae,No extra data
+Anthracothorax nigricollis,"Anthracothorax nigricollis (Vieillot, 1817)",0,Trochilidae,No extra data
+Anthracothorax viridigula,"Anthracothorax viridigula (Boddaert, 1783)",0,Trochilidae,No extra data
+Anthracothorax recurvirostris,"Anthracothorax recurvirostris (Swainson, 1822)",0,Trochilidae,No extra data
+Avocettula recurvirostris,"Avocettula recurvirostris (Swainson, 1822)",0,Trochilidae,No extra data
+Anthracothorax prevostii,"Anthracothorax prevostii (R.Lesson, 1832)",0,Trochilidae,No extra data
+Anthracothorax viridis,"Anthracothorax viridis (Audebert & Vieillot, 1801)",0,Trochilidae,No extra data
+Clytolaema rubricauda,"Clytolaema rubricauda (Boddaert, 1783)",0,Trochilidae,No extra data
+Lampornis hemileucus,"Lampornis hemileucus (Salvin, 1865)",0,Trochilidae,No extra data
+Lampornis viridipallens,"Lampornis viridipallens (Bourcier & Mulsant, 1846)",0,Trochilidae,No extra data
+Lampornis calolaemus,"Lampornis calolaemus (Salvin, 1865)",0,Trochilidae,No extra data
+Lampornis amethystinus,"Lampornis amethystinus Swainson, 1827",0,Trochilidae,No extra data
+Lampornis clemenciae,"Lampornis clemenciae (R.Lesson, 1830)",0,Trochilidae,No extra data
+Lampornis castaneoventris,"Lampornis castaneoventris (Gould, 1851)",0,Trochilidae,No extra data
+Lampornis sybillae,"Lampornis sybillae (Salvin & Godman, 1892)",0,Trochilidae,No extra data
+Tilmatura dupontii,"Tilmatura dupontii (R.Lesson, 1832)",0,Trochilidae,No extra data
+Chalybura urochrysia,"Chalybura urochrysia (Gould, 1861)",0,Trochilidae,No extra data
+Chalybura buffonii,"Chalybura buffonii (R.Lesson, 1832)",0,Trochilidae,No extra data
+Boissonneaua jardini,"Boissonneaua jardini (Bourcier, 1851)",0,Trochilidae,No extra data
+Boissonneaua flavescens,"Boissonneaua flavescens (Loddiges, 1832)",0,Trochilidae,No extra data
+Boissonneaua matthewsii,"Boissonneaua matthewsii (Bourcier, 1847)",0,Trochilidae,No extra data
+Heliactin bilophus,"Heliactin bilophus (Temminck, 1820)",0,Trochilidae,No extra data
+Heliactin cornuta,"Heliactin cornuta (Wied-Neuwied, 1821)",0,Trochilidae,No extra data
+Chalcostigma stanleyi,"Chalcostigma stanleyi (Bourcier, 1851)",0,Trochilidae,No extra data
+Chalcostigma ruficeps,"Chalcostigma ruficeps (Gould, 1846)",0,Trochilidae,No extra data
+Chalcostigma herrani,"Chalcostigma herrani (Delattre & Bourcier, 1846)",0,Trochilidae,No extra data
+Chalcostigma olivaceum,"Chalcostigma olivaceum (Lawrence, 1864)",0,Trochilidae,No extra data
+Chalcostigma heteropogon,"Chalcostigma heteropogon (Boissonneau, 1840)",0,Trochilidae,No extra data
+Sephanoides fernandensis,"Sephanoides fernandensis (P.P.King, 1831)",0,Trochilidae,No extra data
+Sephanoides sephanoides,"Sephanoides sephanoides (R.Lesson & Garnot, 1827)",0,Trochilidae,No extra data
+Sephanoides sephaniodes,"Sephanoides sephaniodes (R.Lesson & Garnot, 1827)",0,Trochilidae,No extra data
+Basilinna xantusii,"Basilinna xantusii (Lawrence, 1861)",0,Trochilidae,No extra data
+Basilinna leucotis,"Basilinna leucotis (Vieillot, 1818)",0,Trochilidae,No extra data
+Selasphorus platycercus,"Selasphorus platycercus (Swainson, 1827)",0,Trochilidae,No extra data
+Selasphorus ardens,"Selasphorus ardens Salvin, 1870",0,Trochilidae,No extra data
+Selasphorus flammula,"Selasphorus flammula Salvin, 1865",0,Trochilidae,No extra data
+Selasphorus scintilla,"Selasphorus scintilla (Gould, 1851)",0,Trochilidae,No extra data
+Selasphorus sasin,"Selasphorus sasin (R.Lesson, 1829)",0,Trochilidae,No extra data
+Selasphorus rufus,"Selasphorus rufus (J.F.Gmelin, 1788)",0,Trochilidae,No extra data
+Thaumastura cora,"Thaumastura cora (R.Lesson & Garnot, 1827)",0,Trochilidae,No extra data
+Metallura odomae,"Metallura odomae G.R.Graves, 1980",0,Trochilidae,No extra data
+Metallura tyrianthina,"Metallura tyrianthina (Loddiges, 1832)",0,Trochilidae,No extra data
+Metallura eupogon,"Metallura eupogon (Cabanis, 1874)",0,Trochilidae,No extra data
+Metallura baroni,"Metallura baroni Salvin, 1893",0,Trochilidae,No extra data
+Metallura iracunda,"Metallura iracunda Wetmore, 1946",0,Trochilidae,No extra data
+Metallura phoebe,"Metallura phoebe (R.Lesson & Delattre, 1839)",0,Trochilidae,No extra data
+Metallura theresiae,"Metallura theresiae Simon, 1902",0,Trochilidae,No extra data
+Metallura williami,"Metallura williami (Delattre & Bourcier, 1846)",0,Trochilidae,No extra data
+Metallura aeneocauda,"Metallura aeneocauda (Gould, 1846)",0,Trochilidae,No extra data
+Ensifera ensifera,"Ensifera ensifera (Boissonneau, 1840)",0,Trochilidae,No extra data
+Glaucis aeneus,"Glaucis aeneus Lawrence, 1868",0,Trochilidae,No extra data
+Glaucis dohrnii,"Glaucis dohrnii (Bourcier & Mulsant, 1852)",0,Trochilidae,No extra data
+Ramphodon dohrnii,"Ramphodon dohrnii (Bourcier & Mulsant, 1852)",0,Trochilidae,No extra data
+Glaucis hirsutus,"Glaucis hirsutus (J.F.Gmelin, 1788)",0,Trochilidae,No extra data
 Urochroa bougueri,"Urochroa bougueri (Bourcier, 1851)",0,Trochilidae,No extra data
+Discosura letitiae,"Discosura letitiae (Bourcier & Mulsant, 1852)",0,Trochilidae,No extra data
+Popelairia letitiae,"Popelairia letitiae (Bourcier & Mulsant, 1852)",0,Trochilidae,No extra data
+Discosura popelairii,"Discosura popelairii (Du Bus de Gisignies, 1846)",0,Trochilidae,No extra data
+Popelairia popelairii,"Popelairia popelairii (Du Bus de Gisignies, 1846)",0,Trochilidae,No extra data
+Discosura longicaudus,"Discosura longicaudus (J.F.Gmelin, 1788)",0,Trochilidae,No extra data
+Discosura langsdorffi,"Discosura langsdorffi (Temminck, 1821)",0,Trochilidae,No extra data
+Popelairia langsdorffi,"Popelairia langsdorffi (Temminck, 1821)",0,Trochilidae,No extra data
+Discosura conversii,"Discosura conversii (Bourcier & Mulsant, 1846)",0,Trochilidae,No extra data
+Popelairia conversii,"Popelairia conversii (Bourcier & Mulsant, 1846)",0,Trochilidae,No extra data
+Acestrura heliodor,"Acestrura heliodor (Bourcier, 1840)",0,Trochilidae,No extra data
+Acestrura berlepschi,"Acestrura berlepschi (Simon, 1889)",0,Trochilidae,No extra data
+Acestrura bombus,"Acestrura bombus (Gould, 1871)",0,Trochilidae,No extra data
+Acestrura astreans,"Acestrura astreans Bangs, 1899",0,Trochilidae,No extra data
+Acestrura mulsant,"Acestrura mulsant (Bourcier, 1843)",0,Trochilidae,No extra data
+Heliodoxa rubinoides,"Heliodoxa rubinoides (Bourcier & Mulsant, 1846)",0,Trochilidae,No extra data
+Heliodoxa schreibersii,"Heliodoxa schreibersii (Bourcier, 1847)",0,Trochilidae,No extra data
+Heliodoxa leadbeateri,"Heliodoxa leadbeateri (Bourcier, 1843)",0,Trochilidae,No extra data
+Heliodoxa aurescens,"Heliodoxa aurescens (Gould, 1846)",0,Trochilidae,No extra data
+Heliodoxa branickii,"Heliodoxa branickii (Taczanowski, 1874)",0,Trochilidae,No extra data
+Heliodoxa xanthogonys,"Heliodoxa xanthogonys Salvin & Godman, 1882",0,Trochilidae,No extra data
+Heliodoxa jacula,"Heliodoxa jacula Gould, 1850",0,Trochilidae,No extra data
+Heliodoxa gularis,"Heliodoxa gularis (Gould, 1860)",0,Trochilidae,No extra data
+Heliodoxa imperatrix,"Heliodoxa imperatrix (Gould, 1856)",0,Trochilidae,No extra data
+Patagona gigas,"Patagona gigas (Vieillot, 1824)",0,Trochilidae,No extra data
+Doryfera johannae,"Doryfera johannae (Bourcier, 1847)",0,Trochilidae,No extra data
+Doryfera ludovicae,"Doryfera ludovicae (Bourcier & Mulsant, 1847)",0,Trochilidae,No extra data
+Sternoclyta cyanopectus,"Sternoclyta cyanopectus (Gould, 1846)",0,Trochilidae,No extra data
+Myrmia micrura,"Myrmia micrura (Gould, 1854)",0,Trochilidae,No extra data
+Heliomaster constantii,"Heliomaster constantii (Delattre, 1843)",0,Trochilidae,No extra data
+Heliomaster squamosus,"Heliomaster squamosus (Temminck, 1823)",0,Trochilidae,No extra data
+Heliomaster longirostris,"Heliomaster longirostris (Audebert & Vieillot, 1801)",0,Trochilidae,No extra data
+Heliomaster furcifer,"Heliomaster furcifer (Shaw, 1812)",0,Trochilidae,No extra data
+Lophornis adorabilis,"Lophornis adorabilis Salvin, 1870",0,Trochilidae,No extra data
+Lophornis chalybeus,"Lophornis chalybeus (Temminck, 1821)",0,Trochilidae,No extra data
+Lophornis delattrei,"Lophornis delattrei (R.Lesson, 1839)",0,Trochilidae,No extra data
+Lophornis gouldii,"Lophornis gouldii (R.Lesson, 1832)",0,Trochilidae,No extra data
+Lophornis helenae,"Lophornis helenae (Delattre, 1843)",0,Trochilidae,No extra data
+Lophornis stictolophus,"Lophornis stictolophus Salvin & D.G.Elliot, 1873",0,Trochilidae,No extra data
+Lophornis ornatus,"Lophornis ornatus (Boddaert, 1783)",0,Trochilidae,No extra data
+Lophornis brachylophus,"Lophornis brachylophus R.T.Moore, 1949",0,Trochilidae,No extra data
+Lophornis pavoninus,"Lophornis pavoninus Salvin & Godman, 1882",0,Trochilidae,No extra data
+Lophornis magnificus,"Lophornis magnificus (Vieillot, 1817)",0,Trochilidae,No extra data
+Polytmus milleri,"Polytmus milleri (Chapman, 1929)",0,Trochilidae,No extra data
+Polytmus guainumbi,"Polytmus guainumbi (Pallas, 1764)",0,Trochilidae,No extra data
+Polytmus theresiae,"Polytmus theresiae (Da Silva Maia, 1843)",0,Trochilidae,No extra data
+Coeligena violifer,"Coeligena violifer (Gould, 1846)",0,Trochilidae,No extra data
+Coeligena bonapartei,"Coeligena bonapartei (Boissonneau, 1840)",0,Trochilidae,No extra data
+Coeligena orina,"Coeligena orina Wetmore, 1953",0,Trochilidae,No extra data
+Coeligena prunellei,"Coeligena prunellei (Bourcier, 1843)",0,Trochilidae,No extra data
+Coeligena lutetiae,"Coeligena lutetiae (Delattre & Bourcier, 1846)",0,Trochilidae,No extra data
+Coeligena phalerata,"Coeligena phalerata (Bangs, 1898)",0,Trochilidae,No extra data
+Coeligena wilsoni,"Coeligena wilsoni (Delattre & Bourcier, 1846)",0,Trochilidae,No extra data
+Coeligena iris,"Coeligena iris (Gould, 1853)",0,Trochilidae,No extra data
+Coeligena helianthea,"Coeligena helianthea (R.Lesson, 1839)",0,Trochilidae,No extra data
+Coeligena torquata,"Coeligena torquata (Boissonneau, 1840)",0,Trochilidae,No extra data
+Coeligena coeligena,"Coeligena coeligena (R.Lesson, 1833)",0,Trochilidae,No extra data
+Streptoprocne rutila,"Streptoprocne rutila (Vieillot, 1817)",0,Apodidae,No extra data
+Cypseloides rutilus,"Cypseloides rutilus (Vieillot, 1817)",0,Apodidae,No extra data
+Streptoprocne semicollaris,"Streptoprocne semicollaris (DeSaussure, 1859)",0,Apodidae,No extra data
+Streptoprocne phelpsi,"Streptoprocne phelpsi (Collins, 1972)",0,Apodidae,No extra data
+Cypseloides phelpsi,"Cypseloides phelpsi Collins, 1972",0,Apodidae,No extra data
+Streptoprocne biscutata,"Streptoprocne biscutata (P.L.Sclater, 1866)",0,Apodidae,No extra data
+Streptoprocne zonaris,"Streptoprocne zonaris (Shaw, 1796)",0,Apodidae,No extra data
+Cypsiurus parvus,"Cypsiurus parvus (M.H.K.Lichtenstein, 1823)",0,Apodidae,No extra data
+Cypsiurus balasiensis,"Cypsiurus balasiensis (J.E.Gray, 1829)",0,Apodidae,No extra data
+Aeronautes saxatalis,"Aeronautes saxatalis (Woodhouse, 1853)",0,Apodidae,No extra data
+Aeronautes andecolus,"Aeronautes andecolus (d'Orbigny & Lafresnaye, 1837)",0,Apodidae,No extra data
+Aeronautes montivagus,"Aeronautes montivagus (d'Orbigny & Lafresnaye, 1837)",0,Apodidae,No extra data
+Telacanthura melanopygia,"Telacanthura melanopygia (Chapin, 1915)",0,Apodidae,No extra data
+Telacanthura ussheri,"Telacanthura ussheri (Sharpe, 1870)",0,Apodidae,No extra data
+Hirundapus giganteus,"Hirundapus giganteus (Temminck, 1825)",0,Apodidae,No extra data
+Hirundapus caudacutus,"Hirundapus caudacutus (Latham, 1801)",0,Apodidae,No extra data
+Hirundapus cochinchinensis,"Hirundapus cochinchinensis (Oustalet, 1878)",0,Apodidae,No extra data
+Hirundapus celebensis,"Hirundapus celebensis (P.L.Sclater, 1866)",0,Apodidae,No extra data
+Panyptila sanctihieronymi,"Panyptila sanctihieronymi Salvin, 1863",0,Apodidae,No extra data
+Panyptila cayennensis,"Panyptila cayennensis (J.F.Gmelin, 1789)",0,Apodidae,No extra data
+Aerodramus vanikorensis,"Aerodramus vanikorensis (Quoy & Gaimard, 1832)",0,Apodidae,No extra data
+Aerodramus amelis,"Aerodramus amelis (Oberholser, 1906)",0,Apodidae,No extra data
+Aerodramus palawanensis,"Aerodramus palawanensis (Stresemann, 1914)",0,Apodidae,No extra data
+Aerodramus terraereginae,"Aerodramus terraereginae (E.P.Ramsay, 1875)",0,Apodidae,No extra data
+Aerodramus francicus,"Aerodramus francicus (J.F.Gmelin, 1789)",0,Apodidae,No extra data
+Aerodramus mearnsi,"Aerodramus mearnsi (Oberholser, 1912)",0,Apodidae,No extra data
+Aerodramus hirundinaceus,"Aerodramus hirundinaceus (Stresemann, 1914)",0,Apodidae,No extra data
+Aerodramus orientalis,"Aerodramus orientalis (Mayr, 1935)",0,Apodidae,No extra data
+Aerodramus pelewensis,"Aerodramus pelewensis (Mayr, 1935)",0,Apodidae,No extra data
+Aerodramus maximus,"Aerodramus maximus (Hume, 1878)",0,Apodidae,No extra data
+Aerodramus papuensis,"Aerodramus papuensis (Rand, 1941)",0,Apodidae,No extra data
+Aerodramus salangana,"Aerodramus salangana (Streubel, 1848)",0,Apodidae,No extra data
+Aerodramus unicolor,"Aerodramus unicolor (Jerdon, 1840)",0,Apodidae,No extra data
+Aerodramus infuscatus,"Aerodramus infuscatus (Salvadori, 1880)",0,Apodidae,No extra data
+Aerodramus brevirostris,"Aerodramus brevirostris (Horsfield, 1840)",0,Apodidae,No extra data
+Aerodramus vulcanorum,"Aerodramus vulcanorum (Stresemann, 1926)",0,Apodidae,No extra data
+Aerodramus rogersi,"Aerodramus rogersi (Deignan, 1955)",0,Apodidae,No extra data
+Aerodramus whiteheadi,"Aerodramus whiteheadi (Ogilvie-Grant, 1895)",0,Apodidae,No extra data
+Aerodramus bartschi,"Aerodramus bartschi (Mearns, 1909)",0,Apodidae,No extra data
+Collocalia bartschi,"Collocalia bartschi Mearns, 1909",0,Apodidae,No extra data
+Aerodramus leucophaeus,"Aerodramus leucophaeus (Peale, 1849)",0,Apodidae,No extra data
+Aerodramus sawtelli,"Aerodramus sawtelli (Holyoak, 1974)",0,Apodidae,No extra data
+Aerodramus spodiopygius,"Aerodramus spodiopygius (Peale, 1849)",0,Apodidae,No extra data
+Aerodramus elaphrus,"Aerodramus elaphrus (Oberholser, 1906)",0,Apodidae,No extra data
+Aerodramus nuditarsus,"Aerodramus nuditarsus (Salomonsen, 1962)",0,Apodidae,No extra data
+Aerodramus inquietus,"Aerodramus inquietus (Kittlitz, 1858)",0,Apodidae,No extra data
+Aerodramus ocistus,"Aerodramus ocistus (Oberholser, 1906)",0,Apodidae,No extra data
+Aerodramus fuciphagus,"Aerodramus fuciphagus (Thunberg, 1812)",0,Apodidae,No extra data
+Aerodramus germanus,"Aerodramus germanus (Oustalet, 1876)",0,Apodidae,No extra data
+Cypseloides cryptus,"Cypseloides cryptus J.T.Zimmer, 1945",0,Apodidae,No extra data
+Cypseloides fumigatus,"Cypseloides fumigatus (Streubel, 1848)",0,Apodidae,No extra data
+Cypseloides niger,"Cypseloides niger (J.F.Gmelin, 1789)",0,Apodidae,No extra data
+Cypseloides storeri,"Cypseloides storeri Navarro, Peterson, Escalante & Benitez, 1992",0,Apodidae,No extra data
+Cypseloides rothschildi,"Cypseloides rothschildi J.T.Zimmer, 1945",0,Apodidae,No extra data
+Cypseloides senex,"Cypseloides senex (Temminck, 1826)",0,Apodidae,No extra data
+Cypseloides cherriei,"Cypseloides cherriei Ridgway, 1893",0,Apodidae,No extra data
+Cypseloides lemosi,"Cypseloides lemosi Eisenmann & Lehmann, 1962",0,Apodidae,No extra data

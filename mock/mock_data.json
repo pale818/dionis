@@ -5,7 +5,8 @@
         "latitude": 45.81,
         "observation_data": {
             "habitat": "Forest",
-            "body_size": "Medium"
+            "body_size": "Medium",
+            "behavior": "Foraging"
         }
     },
     {
@@ -24,7 +25,8 @@
         "latitude": -1.29,
         "observation_data": {
             "habitat": "Savanna",
-            "flight_pattern": "Low altitude"
+            "flight_pattern": "Low altitude",
+            "group_size": "12"
         }
     }
 ]

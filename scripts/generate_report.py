@@ -20,12 +20,16 @@ def generate_report(search_query=None):
 
     report_data = []
 
+    #print("filtered names: ", filtered_names)
     for latin_name in filtered_names:
         species_info = next(s for s in all_species if s["latin_name"] == latin_name)
         
         # Count sightings from both sources
         k_count = db.observations.count_documents({"taxonomy_code": latin_name})
         a_count = db.classifications.count_documents({"classification.species": latin_name})
+        if (k_count != 0 or a_count != 0):
+            print("latin_name: ", latin_name, " k_count: ", k_count, " a_count: ", a_count)
+
         total_sightings = k_count + a_count
 
         # 3. Handle "Relevant Observational Data" (LO3 Requirement)

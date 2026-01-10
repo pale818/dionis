@@ -6,3 +6,5 @@ snakemake
 requests
 beautifulsoup4
 minio   
+thefuzz
+matplotlib
