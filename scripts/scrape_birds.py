@@ -24,7 +24,7 @@ def scrape_birds():
     try:
         response = requests.get(JSON_URL)
         response.raise_for_status()
-        bird_data_list = response.json() # This parses the aves.json automatically
+        bird_data_list = response.json() 
     except Exception as e:
         print(f"Error fetching data: {e}")
         sys.exit(1)
@@ -33,14 +33,12 @@ def scrape_birds():
     birds_skipped = 0
 
     for sp in bird_data_list:
-        # Use scientificName or canonicalName as shown in the script tags you provided
         scientific_name = sp.get('scientificName')
         canonical_name = sp.get('canonicalName')
         
         if not canonical_name:
             continue
 
-        # Check for duplicates using canonical_name 
         existing = collection.find_one({"latin_name": canonical_name})
         
         if existing:
@@ -52,7 +50,7 @@ def scrape_birds():
                 "rank": sp.get('rank'),
                 "family": sp.get('family'),
                 "order": sp.get('order'),
-                "key": sp.get('key') # Useful for linking later
+                "key": sp.get('key') 
             }
             collection.insert_one(bird_doc)
             birds_inserted += 1

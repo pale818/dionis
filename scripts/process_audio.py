@@ -20,11 +20,9 @@ db = mongo_client["bird_db"]
 classifications_col = db["classifications"]
 
 def mock_classification_api(filename):
-    # Example filenames:
-    # "Guttera_pucherani.mp3" -> "Guttera pucherani"
-    # "Acryllium_vulturinum.wav" -> "Acryllium vulturinum"
+   
 
-    base = os.path.splitext(filename)[0]   # remove .mp3/.wav
+    base = os.path.splitext(filename)[0]   
     species = base.replace("_", " ").strip()
 
     return {
@@ -36,11 +34,7 @@ def mock_classification_api(filename):
     }
 
 def mock_classification_api_random(filename):
-    """
-    Simulates the publicly available classification model ().
-    Returns bird info and confidence score.
-    """
-    # Using real names from your scraped backbone (Aves Portal)
+
     possible_birds = ["Guttera pucherani", "Agelastes niger", "Acryllium vulturinum"]
     return {
         "status": "success",
@@ -51,7 +45,7 @@ def mock_classification_api_random(filename):
     }
 
 def run_audio_pipeline():
-    # 1. Ensure MinIO Bucket exists
+    # Ensure MinIO Bucket exists
     bucket_name = "bird-audio"
     if not minio_client.bucket_exists(bucket_name):
         minio_client.make_bucket(bucket_name)
@@ -62,23 +56,21 @@ def run_audio_pipeline():
         if filename.endswith((".wav", ".mp3")):
             file_path = os.path.join(SOURCE_DIR, filename)
             
-            # 2. Upload Audio File to MinIO (LO2 Minimal)
+            # Upload Audio File to MinIO 
             minio_client.fput_object(bucket_name, filename, file_path)
             file_url = f"http://localhost:9000/{bucket_name}/{filename}"
             print(f"Uploaded {filename} to MinIO.")
 
-            # 3. Request Classification (LO2 Desired)
+            # Request Classification 
             api_response = mock_classification_api(filename)
             
-            # 4. Store Request Log in MinIO (LO2 Desired)
+            # Store Request Log in MinIO 
             log_filename = f"logs/{filename}_log.json"
             log_data = json.dumps(api_response).encode('utf-8')
-            # Using a temporary file or BytesIO for the log upload
             from io import BytesIO
             minio_client.put_object(bucket_name, log_filename, BytesIO(log_data), len(log_data))
 
-            # 5. Store Results and Metadata in MongoDB (LO3 Minimal)
-            # Associating file with metadata (location, filename)
+            # Store Results and Metadata in MongoDB 
             doc = {
                 "filename": filename,
                 "minio_url": file_url,

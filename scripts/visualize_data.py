@@ -31,9 +31,9 @@ def create_viz():
     
     plt.tight_layout()
     
-    # Save the file - Snakemake will look for this output
+    # save file 
     plt.savefig(output_file)
-    plt.close() # Close to free up memory
+    plt.close() 
     print(f"Visualization created: {output_file}")
 
 if __name__ == "__main__":

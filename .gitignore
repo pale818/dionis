@@ -8,8 +8,7 @@ __pycache__/
 *.pyc
 
 
-# Data & Audio (Optional)
-# If you don't want to upload your 600MB audio samples to GitHub
+# Data & Audio 
 data/audio/*
 !data/audio/.gitkeep
 
@@ -21,3 +20,5 @@ Desktop.ini
 # Environment variables (Crucial for security)
 .env
 .snakemake
+
+project_plan.txt

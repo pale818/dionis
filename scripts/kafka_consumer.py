@@ -20,16 +20,15 @@ consumer.subscribe(['bird-observations'])
 def run_consumer():
     print("Consumer started. Waiting for sightings...")
     try:
-        # We poll for a few seconds to grab all messages currently in Kafka
         msg_count = 0
         while True:
-            msg = consumer.poll(2.0) # Wait 2 seconds for data
+            msg = consumer.poll(2.0) 
             if msg is None: 
                 print(f"No more messages. Total saved: {msg_count}")
                 break
             
             data = json.loads(msg.value().decode('utf-8'))
-            obs_collection.insert_one(data) # Saves the varying biological data [cite: 117]
+            obs_collection.insert_one(data) 
             msg_count += 1
             print(f"Saved observation for: {data['taxonomy_code']}")
     finally:

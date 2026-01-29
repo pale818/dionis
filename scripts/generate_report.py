@@ -21,11 +21,11 @@ def generate_report(search_query=None):
     print("generate_report search_query normalized:", repr(search_query))
 
 
-    # 1. Fetch species backbone
+    #Fetch species backbone
     all_species = list(db.species.find())
     species_names = [s["latin_name"] for s in all_species]
 
-    # 2. Fuzzy Filtering (Optional parameter)
+    #Fuzzy Filtering 
     filtered_names = species_names
     if search_query is not None:
         matches = process.extractBests(
@@ -39,7 +39,6 @@ def generate_report(search_query=None):
 
     report_data = []
 
-    #print("filtered names: ", filtered_names)
     species_map = {s["latin_name"]: s for s in all_species}
     for latin_name in filtered_names:
         species_info = species_map[latin_name]
@@ -51,14 +50,13 @@ def generate_report(search_query=None):
 
         total_sightings = k_count + a_count
 
-        # 3. Handle "Relevant Observational Data" (LO3 Requirement)
-        # We fetch all unique observations for this bird to collect their traits
+        
+        #  fetch all unique observations for this bird to collect their traits
         observations = list(db.observations.find({"taxonomy_code": latin_name}))
         
         traits = []
         for obs in observations:
             obs_details = obs.get("observation_data", {})
-            # Convert dictionary {'habitat': 'Forest'} to string "habitat: Forest"
             for key, value in obs_details.items():
                 trait_str = f"{key}: {value}"
                 if trait_str not in traits:
@@ -74,7 +72,7 @@ def generate_report(search_query=None):
             "Additional Info": additional_info
         })
 
-    # 4. Export to CSV
+    #Export to CSV
     keys = ["Species Name", "Common Name", "Total Sightings", "Family", "Additional Info"]
     with open("data/csv/bird_statistics_report.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=keys)

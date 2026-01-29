@@ -38,15 +38,17 @@ Dionis-Project/
 --------------------------------------------------------------------------------
 
 	Phase 2: Step-by-Step Pipeline Development
-Step 1: Web Scraping (LO3 - Minimal)
+Step 1: Web Scraping (LO3 - Mindimal)
 Goal: Scrape bird species data from aves.regoch.net.
 Task: Write a script to fetch the data and store it in a MongoDB collection.
 Constraint: Implement a check to skip entries that already exist in the collection to avoid duplicates.
+
 
 Step 2: Kafka Observation Consumption (LO3 - Desired)
 Goal: Read bird sighting messages from the Kafka publisher.
 Task: Capture species ID, geographical coordinates (lat/long), and varying biological data (size, habitat, etc.).
 Constraint: Ensure the database schema handles varying biological properties, as different sources provide different data points.
+
 
 Step 3: Audio Processing & Classification (LO2 - Minimal & Desired)
 Goal: Process audio files from a local (or cloud) directory.
@@ -56,6 +58,7 @@ Store: * Save the request log in MinIO.
 Store the classification results (bird species and confidence score) in MongoDB.
 Link the metadata (filename, location) to the database entry.
 
+here:
 Step 4: Data Cleaning & Reporting (LO3 - Desired)
 Goal: Generate a final statistics report.
 Task: Clean and transform the data (merging sightings with species info).
@@ -76,3 +79,11 @@ Configure a workflow to allow manual execution of the scripts via GitHub.
 
 Submission: Push all code to GitHub at least 3 days before your defense.
 Preparation: Be ready to demonstrate the pipeline, explain how MongoDB and MinIO are integrated, and discuss how you handled the varying data formats from Kafka
+
+-------------------------------------------------------------------------
+How to run it:
+
+snakemake --cores 1 clean
+Full run: snakemake --cores 1 all
+
+With fuzzy filter: snakemake --cores 1 all --config filter="Agelastes"

@@ -21,10 +21,8 @@ def run_inserter():
             topic, 
             value=json.dumps(obs).encode('utf-8')
         )
-        # Briefly poll to handle delivery reports
         producer.poll(0) 
 
-    # Block until all messages are sent
     producer.flush()
     print("Messages successfully delivered to Kafka.")
 
